@@ -1,0 +1,31 @@
+npm init
+
+// pkg
+npm install --global pkg
+// node
+npm install --save-dev @types/node
+// typescript
+npm install --save-dev typescript ts-node tsconfig-paths
+npm install --save tslib
+// eslint
+npm install --save-dev eslint@7 @typescript-eslint/eslint-plugin@4 @typescript-eslint/parser@4
+// jest
+npm install --save-dev jest ts-jest @types/jest
+// puppeteer-core
+npm install --save puppeteer-core
+// cli
+npm install --save inquirer chalk ora@5.4.1
+// jimp & got
+npm install --save jimp got
+// webpack
+npm install --save-dev webpack webpack-cli ts-loader
+
+npx ts-jest config:init
+
+tsc --init
+
+git init -b main
+git add .
+git commit -m "Init"
+git remote add origin https://github.com/deddyss/spotify-to-youtube.git
+git push origin main
