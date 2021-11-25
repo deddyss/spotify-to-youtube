@@ -12,7 +12,7 @@ const validate = (url: string): boolean => {
 const spotifyPlaylistUrlQuestion: InputQuestionOptions = {
 	type: 'input',
 	name: 'spotifyPlaylistUrl',
-	message: `Paste the ${chalk.bold.yellow('Spotify playlist')} URL here`,
+	message: `Type or paste the ${chalk.bold.yellow('Spotify playlist URL')} here`,
 	validate: (input?: string) => {
 		if (input) {
 			return validate(input) || 'Invalid Spotify playlist URL';

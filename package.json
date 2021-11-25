@@ -5,7 +5,7 @@
 	"main": "dist/bundle.js",
 	"scripts": {
 		"start": "ts-node -r tsconfig-paths/register src/app.ts",
-		"build": "npm run lint && webpack --mode=production && pkg --target node14-win --output dist/Spotify-to-Youtube.exe dist/bundle.js",
+		"build": "webpack --mode=production && pkg --target node14-win --output dist/Spotify-to-Youtube.exe dist/bundle.js --public",
 		"lint": "eslint . --ext .ts",
 		"test": "jest --verbose"
 	},
@@ -31,8 +31,9 @@
 		"ts-loader": "^9.2.6",
 		"ts-node": "^10.4.0",
 		"tsconfig-paths": "^3.11.0",
+		"tsconfig-paths-webpack-plugin": "^3.5.2",
 		"typescript": "^4.4.4",
-		"webpack": "^5.64.1",
+		"webpack": "^5.64.3",
 		"webpack-cli": "^4.9.1"
 	},
 	"dependencies": {

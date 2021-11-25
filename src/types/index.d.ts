@@ -4,6 +4,8 @@ export * from './spotify';
 
 export interface Configuration {
 	spotifyPlaylistUrl: string;
+	spotifyPlaylistTitle: string;
+	selectedSongs: string[];
 }
 
 export type Answer = Configuration;

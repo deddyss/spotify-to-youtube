@@ -9,6 +9,14 @@ export const getAccessToken = (): string => {
 	return '';
 };
 
+export const getPlaylistTitle = (): string => {
+	const meta = document.querySelector('meta[property="og:title"]');
+	if (meta) {
+		return meta.getAttribute('content') ?? '';
+	}
+	return '';
+};
+
 export const getPlaylistLength = (): number => {
 	const meta = document.querySelector('meta[property="music:song_count"]');
 	if (meta) {

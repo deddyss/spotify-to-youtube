@@ -6,7 +6,7 @@ import path from 'path';
 import fs from 'fs';
 import { Page } from 'puppeteer-core';
 import Spotify from '@/api/spotify';
-import { getAccessToken, getPlaylistLength, getPlaylistSongs } from '@/api/spotify/page';
+import { getAccessToken, getPlaylistLength, getPlaylistSongs, getPlaylistTitle } from '@/api/spotify/page';
 
 // fetch mock
 let fetchIndex = 0;
@@ -23,12 +23,16 @@ global.fetch = jest.fn(() => {
 }) as jest.Mock;
 
 const mockPage = {
+	url: () => '',
 	// eslint-disable-next-line
 	goto: (url: string) => Promise.resolve(),
 	// eslint-disable-next-line
 	evaluate: (func: Function, ...args: [string | number]) => {
 		const { name } = func;
 		if (name === 'getAccessToken') {
+			return Promise.resolve('');
+		}
+		else if (name === 'getPlaylistTitle') {
 			return Promise.resolve('');
 		}
 		else if (name === 'getPlaylistLength') {
@@ -50,13 +54,21 @@ describe('Spotify playlist', () => {
 	test('API', async () => {
 		const stubApi = new Spotify(mockPage);
 		const playlistUrl = 'https://open.spotify.com/playlist/1GwfqIvptzGH9obINoyTUz';
-		const songs = await stubApi.getPlaylistSongs(playlistUrl);
-		expect(songs.length).toBe(0);
+		const playlistTitle = await stubApi.getPlaylistTitle(playlistUrl);
+		const playlistSongs = await stubApi.getPlaylistSongs(playlistUrl);
+
+		expect(playlistTitle).toBe('');
+		expect(playlistSongs.length).toBe(0);
 	});
 
 	test('Access token', () => {
 		const accessToken = getAccessToken();
 		expect(accessToken).toBeTruthy();
+	});
+
+	test('Playlist title', () => {
+		const playlistTitle = getPlaylistTitle();
+		expect(playlistTitle).toBe('Most Popular Song Each Month in the 2000s');
 	});
 
 	test('Playlist length', () => {

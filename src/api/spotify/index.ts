@@ -1,6 +1,6 @@
 import { Page } from 'puppeteer-core';
 import { Song } from '@/types';
-import { getAccessToken, getPlaylistLength, getPlaylistSongs } from './page';
+import { getAccessToken, getPlaylistLength, getPlaylistSongs, getPlaylistTitle } from './page';
 
 class Spotify {
 	private page: Page;
@@ -9,8 +9,19 @@ class Spotify {
 		this.page = page;
 	}
 
+	public async getPlaylistTitle(playlistUrl: string): Promise<string> {
+		if (this.page.url() !== playlistUrl) {
+			await this.page.goto(playlistUrl, { waitUntil: 'domcontentloaded' });
+		}
+
+		const playlistTitle = await this.page.evaluate(getPlaylistTitle);
+		return playlistTitle;
+	}
+
 	public async getPlaylistSongs(playlistUrl: string): Promise<Array<Song>> {
-		this.page.goto(playlistUrl, { waitUntil: 'domcontentloaded' });
+		if (this.page.url() !== playlistUrl) {
+			await this.page.goto(playlistUrl, { waitUntil: 'domcontentloaded' });
+		}
 
 		const playlistId = this.getPlaylistId(playlistUrl);
 		const playlistLength = await this.page.evaluate(getPlaylistLength);

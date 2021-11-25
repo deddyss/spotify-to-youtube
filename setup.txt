@@ -18,7 +18,7 @@ npm install --save inquirer chalk ora@5.4.1
 // jimp & got
 npm install --save jimp got
 // webpack
-npm install --save-dev webpack webpack-cli ts-loader
+npm install --save-dev webpack webpack-cli ts-loader tsconfig-paths-webpack-plugin
 
 npx ts-jest config:init
 
