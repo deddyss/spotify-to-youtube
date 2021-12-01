@@ -2,11 +2,10 @@
  * @jest-environment jsdom
  */
 
-import path from 'path';
-import fs from 'fs';
 import { Page } from 'puppeteer-core';
 import Spotify from '@/api/spotify';
 import { getAccessToken, getPlaylistLength, getPlaylistSongs, getPlaylistTitle } from '@/api/spotify/page';
+import { readFile } from './util';
 
 // fetch mock
 let fetchIndex = 0;
@@ -14,9 +13,7 @@ global.fetch = jest.fn(() => {
 	return Promise.resolve({
 		json: () => {
 			fetchIndex += 1;
-			const jsonMock = fs.readFileSync(
-				path.join(__dirname, `./spotifyPlaylist.json.${fetchIndex}.mock`), 'utf-8'
-			);
+			const jsonMock = readFile(`./spotifyPlaylist.json.${fetchIndex}.mock`);
 			return Promise.resolve(JSON.parse(jsonMock));
 		}
 	});
@@ -46,9 +43,7 @@ const mockPage = {
 
 describe('Spotify playlist', () => {
 	beforeAll(() => {
-		window.document.body.innerHTML = fs.readFileSync(
-			path.join(__dirname, './spotifyPlaylist.html.mock'), 'utf-8'
-		);
+		window.document.body.innerHTML = readFile('spotifyPlaylist.html.mock');
 	});
 
 	test('API', async () => {

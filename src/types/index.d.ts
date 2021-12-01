@@ -19,3 +19,14 @@ export interface Song {
 	title: string;
 	artists: Array<string>;
 }
+
+export interface Video {
+	title: string;
+	channel: string;
+	views: number;
+	official: boolean;
+	verified: boolean;
+	url: string;
+	img: string;
+	index: number;
+}

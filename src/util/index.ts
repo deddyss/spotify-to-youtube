@@ -60,6 +60,12 @@ export const getChromeUserDataDir = (): string | undefined => {
 
 export const isNotEmpty = (array: Array<any>): boolean => array && array.length > 0;
 
+export const random = (min: number, max: number): number => {
+	const minRange = Math.ceil(min);
+	const maxRange = Math.floor(max);
+	return Math.floor(Math.random() * (maxRange - minRange + 1)) + minRange;
+};
+
 export const sleep = (delay = 0): Promise<void> => {
 	return new Promise((resolve) => {
 		if (delay > 0) {
