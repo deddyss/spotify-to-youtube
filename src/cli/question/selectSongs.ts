@@ -26,7 +26,7 @@ const songsToChoiceOptions = (songs: Song[]): CheckboxChoiceOptions[] => {
 };
 
 const message = (songs: Song[], playlistTitle: string): string => {
-	return `There are ${chalk.bold.yellow(songs.length)} songs on the '${playlistTitle}' playlist. ` 
+	return `There are ${chalk.bold.yellow(songs.length)} songs on the "${playlistTitle}" playlist. ` 
 		+ `Please ${chalk.bold.yellow('select')} the ${chalk.bold.yellow('song')} you want to export to Youtube`;
 };
 

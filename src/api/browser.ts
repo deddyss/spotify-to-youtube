@@ -9,8 +9,7 @@ export const launchBrowser = async (): Promise<LaunchBrowserResult> => {
 		executablePath: getChromeExecutablePath(),
 		userDataDir: getChromeUserDataDir()
 	});
-	const pages: Page[] = await browser.pages();
-	const page = pages[0];
+	const [ page ] = await browser.pages();
 	return { 
 		browser,
 		page

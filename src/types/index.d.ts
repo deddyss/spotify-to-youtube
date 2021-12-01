@@ -2,13 +2,15 @@ import { Browser, Page } from 'puppeteer-core';
 
 export * from './spotify';
 
-export interface Configuration {
+export interface Answer {
 	spotifyPlaylistUrl: string;
 	spotifyPlaylistTitle: string;
 	selectedSongs: string[];
 }
 
-export type Answer = Configuration;
+export interface YoutubeVideoAnswer {
+	index: number;
+}
 
 export interface LaunchBrowserResult {
 	browser: Browser;

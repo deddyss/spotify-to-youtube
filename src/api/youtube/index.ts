@@ -21,9 +21,9 @@ class Youtube {
 
 	public async search(keyword: string): Promise<Video | Array<Video>> {
 		const searchUrl = YOUTUBE_URL + '/results?search_query=' + keyword.replace(/ /g, '+');
-		await this.page.goto(searchUrl);
+		await this.page.goto(searchUrl, { waitUntil: 'networkidle2' });
 
-		const topVideos = await this.page.evaluate(getTopVideos, 3);
+		const topVideos = await this.page.evaluate(getTopVideos, 4);
 		const bestVideos = findBestVideo(topVideos);
 		return bestVideos;
 	}

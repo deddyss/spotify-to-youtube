@@ -14,11 +14,15 @@ npm install --save-dev jest ts-jest @types/jest
 // puppeteer-core
 npm install --save puppeteer-core
 // cli
-npm install --save inquirer chalk ora@5.4.1
+npm install --save inquirer chalk ora@5.4.1 cli-table
+npm install --save-dev @types/cli-table
+// comma number
+npm install --save comma-number
 // jimp & got
 npm install --save jimp got
 // webpack
 npm install --save-dev webpack webpack-cli ts-loader tsconfig-paths-webpack-plugin
+
 
 npx ts-jest config:init
 

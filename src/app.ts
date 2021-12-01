@@ -1,15 +1,15 @@
 import { prompt, QuestionCollection } from 'inquirer';
 import { Browser, Page } from 'puppeteer-core';
-import fs from 'fs';
-import path from 'path';
 import { close, launchBrowser } from '@/api/browser';
 import Spotify from '@/api/spotify';
 import Youtube from '@/api/youtube';
-import { selectSongsQuestion, spotifyPlaylistUrlQuestion } from '@/cli/question';
-import spinner from '@/cli/spinner';
 import greeting from '@/cli/greeting';
-import { Answer, Song, Video } from '@/types';
-import { random, sleep } from '@/util';
+import selectSongsQuestion from '@/cli/question/selectSongs';
+import spotifyPlaylistUrlQuestion from '@/cli/question/spotifyPlaylistUrl';
+import { Answer } from '@/types';
+import { sleep } from '@/util';
+import retrieveSpotifyPlaylistSongs from '@/spotify';
+import YoutubeProcessor from '@/youtube';
 
 const showGreeting = async () => {
 	console.clear();
@@ -21,19 +21,7 @@ const ask = (questions: QuestionCollection, initialAnswer?: Answer): Promise<Ans
 	return prompt<Answer>(questions, initialAnswer);
 };
 
-const retrieveSpotifyPlaylistSongs = async (spotify: Spotify, answer: Answer): Promise<Array<Song>> => {
-	spinner.start('Retrieving songs from Spotify playlist');
-	const { spotifyPlaylistUrl } = answer;
-
-	// set playlist title
-	answer.spotifyPlaylistTitle = await spotify.getPlaylistTitle(spotifyPlaylistUrl);
-	// get playlist songs
-	const songs = await spotify.getPlaylistSongs(spotifyPlaylistUrl);
-
-	spinner.stop();
-	return songs;
-};
-
+// TODO:
 // const userHasLoggedInToYoutube = async(youtube: Youtube, answer: Answer): Promise<boolean> => {
 // 	spinner.start('Checking Youtube feed library');
 
@@ -48,6 +36,7 @@ const main = async () => {
 	let browser!: Browser, page!: Page;
 	let spotify: Spotify;
 	let youtube: Youtube;
+	let youtubeProcessor: YoutubeProcessor;
 
 	try {
 		await showGreeting();
@@ -66,8 +55,11 @@ const main = async () => {
 		// ask user to select some songs
 		answer = await ask([selectSongsQuestion(songs, answer)], answer);
 
-		// init youtube API
+		// init youtube API and its processor
 		youtube = new Youtube(page);
+		youtubeProcessor = new YoutubeProcessor(youtube, answer.selectedSongs);
+
+		await youtubeProcessor.process();
 
 		// // TODO: test only
 		// const toBeWritten: Record<string, Video | Array<Video>> = {};

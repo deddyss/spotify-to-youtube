@@ -1,6 +1,8 @@
 import path from 'path';
 import fs from 'fs';
 
+const commaNumber = require('comma-number');
+
 export const isChromeAvailable = (): boolean => {
 	return getChromeExecutablePath() !== undefined;
 };
@@ -77,4 +79,12 @@ export const sleep = (delay = 0): Promise<void> => {
 			resolve();
 		}
 	});
+};
+
+export const formatNumber = (num: number): string => {
+	return commaNumber(num);
+};
+
+export const printNewLine = (): void => {
+	console.log('');
 };

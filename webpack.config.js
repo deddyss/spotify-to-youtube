@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 const TSConfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 
 module.exports = {
@@ -19,6 +20,10 @@ module.exports = {
 			new TSConfigPathsPlugin()
 		]
 	},
+	plugins: [
+		// remove warning 'Critical dependency: the request of a dependency is an expression'
+		new webpack.ContextReplacementPlugin(/colors|keyv/)
+	],
 	// this makes sure we include node_modules and other 3rd party libraries
 	externals: [/node_modules/, 'bufferutil', 'utf-8-validate'],
 	output: {
