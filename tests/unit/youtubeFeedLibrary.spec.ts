@@ -5,7 +5,7 @@
 import { Page } from 'puppeteer-core';
 import Youtube from '@/api/youtube';
 import { userHasLoggedInToGoogle } from '@/api/youtube/page';
-import { readFile } from './util';
+import { readMockFile } from './util';
 
 const mockPage = {
 	// eslint-disable-next-line
@@ -28,14 +28,14 @@ describe('Youtube feed library', () => {
 	});
 
 	test('Logged-in', () => {
-		window.document.body.innerHTML = readFile('youtubeFeedLibrary-loggedIn.html.mock');
+		window.document.body.innerHTML = readMockFile('youtubeFeedLibrary-loggedIn.html.mock');
 
 		const loggedIn = userHasLoggedInToGoogle();
 		expect(loggedIn).toBe(true);
 	});
 
 	test('Not logged-in', () => {
-		window.document.body.innerHTML = readFile('youtubeFeedLibrary-notLoggedIn.html.mock');
+		window.document.body.innerHTML = readMockFile('youtubeFeedLibrary-notLoggedIn.html.mock');
 
 		const loggedIn = userHasLoggedInToGoogle();
 		expect(loggedIn).toBe(false);

@@ -1,16 +1,8 @@
 <html style="font-size: 10px;font-family: Roboto, Arial, sans-serif;" lang="en" dark="true" system-icons="" typography="" typography-spacing="" standardized-themed-scrollbar="">
 	<head>
-
-
 		<link rel="shortcut icon" href="https://www.youtube.com/s/desktop/b75d77f8/img/favicon.ico" type="image/x-icon"><link rel="icon" href="https://www.youtube.com/s/desktop/b75d77f8/img/favicon_32x32.png" sizes="32x32"><link rel="icon" href="https://www.youtube.com/s/desktop/b75d77f8/img/favicon_48x48.png" sizes="48x48"><link rel="icon" href="https://www.youtube.com/s/desktop/b75d77f8/img/favicon_96x96.png" sizes="96x96"><link rel="icon" href="https://www.youtube.com/s/desktop/b75d77f8/img/favicon_144x144.png" sizes="144x144"><link rel="preload" href="https://i.ytimg.com/generate_204" as="fetch"><link as="script" rel="preload" href="https://www.youtube.com/s/desktop/b75d77f8/jsbin/desktop_polymer.vflset/desktop_polymer.js" nonce="kdWNkMjQH3tXgqVWsmB3OA">
-
-
 		<link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;family=YouTube+Sans:wght@300..900&amp;display=swap" nonce="X6epauANjCEisSVdPq0vRg" class="css-httpsfontsgoogleapiscomcss2familyRobotowght300400500700familyYouTubeSanswght300900displayswap"><link rel="stylesheet" href="https://www.youtube.com/s/desktop/b75d77f8/cssbin/www-onepick-2x.css" nonce="X6epauANjCEisSVdPq0vRg" class="css-httpswwwyoutubecomsdesktopb75d77f8cssbinwwwonepick2xcss">
-
-
 		<meta name="theme-color" content="rgba(33,33,33,0.98)"><link rel="search" type="application/opensearchdescription+xml" href="https://www.youtube.com/opensearch?locale=en_US" title="YouTube"><link rel="manifest" href="/manifest.webmanifest" crossorigin="use-credentials"><div inlined-html=""></div>
-
-
 		<!-- Most common used flex styles -->
 		<dom-module id="iron-flex">
 			<template></template>
@@ -30,8 +22,6 @@
 		<dom-module id="iron-positioning">
 			<template></template>
 		</dom-module>
-
-
 		<title>Christina Aguilera - Genie In A Bottle - YouTube</title>
 		<link id="player-css" href="/s/player/10df06bb/www-player-2x-webp.css" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Roboto:300italic,400italic,500italic,700italic" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400" rel="stylesheet">
 	</head>
@@ -157,7 +147,6 @@
 							<ytd-thumbnail width="78" class="style-scope ytd-miniplayer-toast">
 								<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1">
 									<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition"><img id="img" class="style-scope yt-img-shadow" alt="" width="78"></yt-img-shadow>
-
 									<div id="overlays" class="style-scope ytd-thumbnail"></div>
 									<div id="mouseover-overlay" class="style-scope ytd-thumbnail"></div>
 									<div id="hover-overlays" class="style-scope ytd-thumbnail"></div>
@@ -207,7 +196,6 @@
 										<div class="fill style-scope yt-interaction"></div>
 									</yt-interaction>
 								</yt-icon-button>
-
 								<ytd-topbar-logo-renderer id="logo" use-yoodle="" class="style-scope ytd-masthead">
 									<a class="yt-simple-endpoint style-scope ytd-topbar-logo-renderer" id="logo" href="/" title="YouTube Home">
 										<div class="style-scope ytd-topbar-logo-renderer">
@@ -350,54 +338,6 @@
 									<div class="masthead-skeleton-icon"></div>
 								</div>
 								<div id="buttons" class="style-scope ytd-masthead">
-									<ytd-topbar-menu-button-renderer class="style-scope ytd-masthead style-default" use-keyboard-focused="" is-icon-button="" has-no-text="">
-										<dom-if class="style-scope ytd-topbar-menu-button-renderer">
-											<template is="dom-if"></template>
-										</dom-if>
-										<div id="button" class="style-scope ytd-topbar-menu-button-renderer">
-											<a class="yt-simple-endpoint style-scope ytd-topbar-menu-button-renderer" tabindex="-1">
-												<yt-icon-button id="button" class="style-scope ytd-topbar-menu-button-renderer style-default" touch-feedback="">
-													<button id="button" class="style-scope yt-icon-button" aria-label="Create">
-														<yt-icon class="style-scope ytd-topbar-menu-button-renderer">
-															<svg viewbox="0 0 24 24" preserveaspectratio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
-																<g class="style-scope yt-icon">
-																	<path d="M14,13h-3v3H9v-3H6v-2h3V8h2v3h3V13z M17,6H3v12h14v-6.39l4,1.83V8.56l-4,1.83V6 M18,5v3.83L22,7v8l-4-1.83V19H2V5H18L18,5 z" class="style-scope yt-icon"></path>
-																</g>
-															</svg>
-														</yt-icon>
-													</button>
-													<yt-interaction id="interaction" class="circular style-scope yt-icon-button">
-														<div class="stroke style-scope yt-interaction"></div>
-														<div class="fill style-scope yt-interaction"></div>
-													</yt-interaction>
-												</yt-icon-button>
-											</a>
-										</div>
-									</ytd-topbar-menu-button-renderer>
-									<ytd-topbar-menu-button-renderer class="style-scope ytd-masthead style-default" use-keyboard-focused="" is-icon-button="" has-no-text="">
-										<dom-if class="style-scope ytd-topbar-menu-button-renderer">
-											<template is="dom-if"></template>
-										</dom-if>
-										<div id="button" class="style-scope ytd-topbar-menu-button-renderer">
-											<a class="yt-simple-endpoint style-scope ytd-topbar-menu-button-renderer" tabindex="-1">
-												<yt-icon-button id="button" class="style-scope ytd-topbar-menu-button-renderer style-default" touch-feedback="">
-													<button id="button" class="style-scope yt-icon-button" aria-label="YouTube apps">
-														<yt-icon class="style-scope ytd-topbar-menu-button-renderer">
-															<svg viewbox="0 0 24 24" preserveaspectratio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
-																<g class="style-scope yt-icon">
-																	<path d="M16,4v4h4V4H16z M19,7h-2V5h2V7z M16,10v4h4v-4H16z M19,13h-2v-2h2V13z M10,4v4h4V4H10z M13,7h-2V5h2V7z M10,10v4h4v-4H10z M13,13h-2v-2h2V13z M16,16v4h4v-4H16z M19,19h-2v-2h2V19z M10,16v4h4v-4H10z M13,19h-2v-2h2V19z M4,4v4h4V4H4z M7,7H5V5h2V7z M4,10 v4h4v-4H4z M7,13H5v-2h2V13z M4,16v4h4v-4H4z M7,19H5v-2h2V19z" class="style-scope yt-icon"></path>
-																</g>
-															</svg>
-														</yt-icon>
-													</button>
-													<yt-interaction id="interaction" class="circular style-scope yt-icon-button">
-														<div class="stroke style-scope yt-interaction"></div>
-														<div class="fill style-scope yt-interaction"></div>
-													</yt-interaction>
-												</yt-icon-button>
-											</a>
-										</div>
-									</ytd-topbar-menu-button-renderer>
 									<ytd-notification-topbar-button-renderer class="style-scope ytd-masthead notification-button-style-type-default" use-keyboard-focused="" is-icon-button="" has-no-text="">
 										<div id="button" class="style-scope ytd-notification-topbar-button-renderer">
 											<a class="yt-simple-endpoint style-scope ytd-notification-topbar-button-renderer" tabindex="-1">
@@ -429,15 +369,6 @@
 											0
 										</div>
 									</ytd-notification-topbar-button-renderer>
-									<ytd-topbar-menu-button-renderer class="style-scope ytd-masthead" use-keyboard-focused="">
-										<button id="avatar-btn" aria-haspopup="true" class="style-scope ytd-topbar-menu-button-renderer" aria-label="Account profile photo that opens list of alternate accounts">
-											<yt-img-shadow height="32" width="32" class="style-scope ytd-topbar-menu-button-renderer no-transition" loaded="" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="Avatar image" height="32" width="32" src="https://yt3.ggpht.com/yti/APfAmoH-pWnjD3qm9QDQEGjtXGlOMBsB96RiRiFSnRZsnkE=s88-c-k-c0x00ffffff-no-rj-mo"></yt-img-shadow>
-										</button>
-										<dom-if class="style-scope ytd-topbar-menu-button-renderer">
-											<template is="dom-if"></template>
-										</dom-if>
-										<div id="button" class="style-scope ytd-topbar-menu-button-renderer"></div>
-									</ytd-topbar-menu-button-renderer>
 								</div>
 							</div>
 						</div>
@@ -445,15 +376,11 @@
 				</div>
 				<tp-yt-app-drawer id="guide" align="start" role="navigation" class="style-scope ytd-app" style="transition-duration: 0ms; touch-action: pan-y;" position="left" swipe-open="" opened="" persistent="">
 					<div id="scrim" class="style-scope tp-yt-app-drawer" style="transition-duration: 0ms;"></div>
-
-
 					<div id="contentContainer" class="style-scope tp-yt-app-drawer" position="left" style="transition-duration: 0ms;" swipe-open="" opened="" persistent="">
-
 						<div id="guide-wrapper" class="style-scope ytd-app">
 							<div id="guide-spacer" class="style-scope ytd-app"></div>
 							<div id="guide-content" class="style-scope ytd-app">
 								<div id="header" class="style-scope ytd-app" hidden="">
-
 									<yt-icon-button id="guide-button" pressed="true" toggleable="true" class="style-scope ytd-app" aria-label="Guide" touch-feedback="">
 										<button id="button" class="style-scope yt-icon-button" aria-pressed="true">
 											<yt-icon id="guide-icon" icon="yt-icons:menu" class="style-scope ytd-app">
@@ -505,7 +432,6 @@
 									</ytd-topbar-logo-renderer>
 								</div>
 								<div id="guide-inner-content" class="style-scope ytd-app">
-
 									<ytd-guide-renderer id="guide-renderer" class="style-scope ytd-app">
 										<div id="sections" class="style-scope ytd-guide-renderer">
 											<ytd-guide-section-renderer class="style-scope ytd-guide-renderer" guide-persistent-and-visible="">
@@ -528,7 +454,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -551,7 +476,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -574,7 +498,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -599,7 +522,6 @@
 																		<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																		<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																		<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 																	</tp-yt-paper-item>
 																</a>
 																<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -624,7 +546,6 @@
 																		<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																		<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																		<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 																	</tp-yt-paper-item>
 																</a>
 																<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -647,7 +568,6 @@
 																		<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																		<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																		<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 																	</tp-yt-paper-item>
 																</a>
 																<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -670,7 +590,6 @@
 																		<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																		<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																		<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 																	</tp-yt-paper-item>
 																</a>
 																<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -694,7 +613,6 @@
 																			<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																			<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																			<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 																		</tp-yt-paper-item>
 																	</a>
 																	<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -718,7 +636,6 @@
 																		<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																		<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																		<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 																	</tp-yt-paper-item>
 																</a>
 																<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -742,7 +659,6 @@
 																			<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																			<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																			<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 																		</tp-yt-paper-item>
 																	</a>
 																	<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -767,7 +683,6 @@
 																				<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																				<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																				<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 																			</tp-yt-paper-item>
 																		</a>
 																		<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -801,7 +716,6 @@
 																	</svg>
 																</yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -824,7 +738,6 @@
 																	</svg>
 																</yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -847,7 +760,6 @@
 																	</svg>
 																</yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -870,7 +782,6 @@
 																	</svg>
 																</yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -893,7 +804,6 @@
 																	</svg>
 																</yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -916,7 +826,6 @@
 																	</svg>
 																</yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -939,7 +848,6 @@
 																	</svg>
 																</yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -963,7 +871,6 @@
 																	<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																	<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																	<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 																</tp-yt-paper-item>
 															</a>
 															<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -988,7 +895,6 @@
 																		<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																		<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																		<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 																	</tp-yt-paper-item>
 																</a>
 																<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -1020,7 +926,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -1043,7 +948,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -1066,7 +970,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -1089,7 +992,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -1112,7 +1014,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -1135,7 +1036,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -1158,7 +1058,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -1188,7 +1087,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -1211,7 +1109,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -1234,7 +1131,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -1257,7 +1153,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -1285,7 +1180,6 @@
 												<a slot="guide-links-secondary" href="https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen&amp;utm_source=ythp&amp;utm_medium=LeftNav&amp;utm_content=txt&amp;u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen" style="display: none;">How YouTube works</a>
 												<a slot="guide-links-secondary" href="/new" style="display: none;">Test new features</a>
 											</div>
-
 											<div id="copyright" slot="copyright" style="display: none;">
 												<div dir="ltr" style="display:inline">© 2021 Google LLC</div>
 											</div>
@@ -1297,7 +1191,6 @@
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</tp-yt-app-drawer>
 				<ytd-mini-guide-renderer class="style-scope ytd-app" disable-upgrade="" hidden=""></ytd-mini-guide-renderer>
@@ -1306,7 +1199,6 @@
 						<div id="container" class="style-scope ytd-search">
 							<ytd-two-column-search-results-renderer is-search="true" class="style-scope ytd-search" use-prominent-thumbs="" prominent-thumb-style="DEFAULT" center-results="" guide-persistent-and-visible="" style="--ytd-search-chips-bar-width:1096px;">
 								<div id="primary" class="style-scope ytd-two-column-search-results-renderer">
-
 									<ytd-section-list-renderer class="style-scope ytd-two-column-search-results-renderer" hide-bottom-separator="">
 										<div id="header-container" class="style-scope ytd-section-list-renderer">
 											<div id="header" class="style-scope ytd-section-list-renderer"></div>
@@ -1326,8 +1218,6 @@
 																		</yt-icon>
 																		<yt-formatted-string id="text" class="style-scope ytd-toggle-button-renderer style-text">Filters</yt-formatted-string>
 																		<paper-ripple class="style-scope tp-yt-paper-button">
-
-
 																			<div id="background" class="style-scope paper-ripple"></div>
 																			<div id="waves" class="style-scope paper-ripple"></div>
 																		</paper-ripple>
@@ -1371,7 +1261,6 @@
 															<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=kIDWgqDBNXA">
 																	<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition" style="background-color: transparent;" loaded=""><img id="img" class="style-scope yt-img-shadow" alt="" width="360" src="https://i.ytimg.com/vi/kIDWgqDBNXA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB4RKzO_7cx9pWm59ENrD-t20KBuA"></yt-img-shadow>
-
 																	<div id="overlays" class="style-scope ytd-thumbnail">
 																		<ytd-thumbnail-overlay-resume-playback-renderer class="style-scope ytd-thumbnail">
 																			<div id="progress" class="style-scope ytd-thumbnail-overlay-resume-playback-renderer" style="width: 100%;"></div>
@@ -1442,9 +1331,7 @@
 																						</div>
 																						<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																							<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																								Christina Aguilera
-
 																							</div>
 																						</tp-yt-paper-tooltip>
 																					</div>
@@ -1472,9 +1359,7 @@
 																				<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																			</div>
 																			<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																				<span class="style-scope ytd-video-meta-block">186M views</span>
-
 																				<span class="style-scope ytd-video-meta-block">12 years ago</span>
 																				<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																					<template is="dom-repeat"></template>
@@ -1486,7 +1371,6 @@
 																				<template is="dom-repeat"></template>
 																			</dom-repeat>
 																		</div>
-
 																	</ytd-video-meta-block>
 																</div>
 																<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -1502,9 +1386,7 @@
 																			</div>
 																			<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																				<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																					Christina Aguilera
-
 																				</div>
 																			</tp-yt-paper-tooltip>
 																		</div>
@@ -1531,7 +1413,6 @@
 																	</ytd-channel-name>
 																</div>
 																<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																	<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																		<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -1563,7 +1444,6 @@
 															<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=dMm90NTa1T4">
 																	<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition" style="background-color: transparent;" loaded=""><img id="img" class="style-scope yt-img-shadow" alt="" width="360" src="https://i.ytimg.com/vi/dMm90NTa1T4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAad1TqWHBCowXlUHyNA4dBtzNCsQ"></yt-img-shadow>
-
 																	<div id="overlays" class="style-scope ytd-thumbnail">
 																		<ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT">
 																			<yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon>
@@ -1631,9 +1511,7 @@
 																						</div>
 																						<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																							<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																								Nielson Lucas
-
 																							</div>
 																						</tp-yt-paper-tooltip>
 																					</div>
@@ -1642,9 +1520,7 @@
 																				<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																			</div>
 																			<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																				<span class="style-scope ytd-video-meta-block">81K views</span>
-
 																				<span class="style-scope ytd-video-meta-block">4 years ago</span>
 																				<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																					<template is="dom-repeat"></template>
@@ -1656,7 +1532,6 @@
 																				<template is="dom-repeat"></template>
 																			</dom-repeat>
 																		</div>
-
 																	</ytd-video-meta-block>
 																</div>
 																<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -1672,9 +1547,7 @@
 																			</div>
 																			<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1" style="inset: -3.73214px auto auto 390.045px;">
 																				<div id="tooltip" class="style-scope tp-yt-paper-tooltip hidden">
-
 																					Nielson Lucas
-
 																				</div>
 																			</tp-yt-paper-tooltip>
 																		</div>
@@ -1682,7 +1555,6 @@
 																	</ytd-channel-name>
 																</div>
 																<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																	<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																		<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -1730,7 +1602,6 @@
 															<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=VlPq48JcXZA">
 																	<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition" style="background-color: transparent;" loaded=""><img id="img" class="style-scope yt-img-shadow" alt="" width="360" src="https://i.ytimg.com/vi/VlPq48JcXZA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLA-uwxl2NWCDSWs7d8ufORb1vjhcg"></yt-img-shadow>
-
 																	<div id="overlays" class="style-scope ytd-thumbnail">
 																		<ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT">
 																			<yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon>
@@ -1798,9 +1669,7 @@
 																						</div>
 																						<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																							<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																								Liberated Fighter
-
 																							</div>
 																						</tp-yt-paper-tooltip>
 																					</div>
@@ -1813,9 +1682,7 @@
 																				<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																			</div>
 																			<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																				<span class="style-scope ytd-video-meta-block">185K views</span>
-
 																				<span class="style-scope ytd-video-meta-block">2 years ago</span>
 																				<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																					<template is="dom-repeat"></template>
@@ -1827,7 +1694,6 @@
 																				<template is="dom-repeat"></template>
 																			</dom-repeat>
 																		</div>
-
 																	</ytd-video-meta-block>
 																</div>
 																<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -1843,9 +1709,7 @@
 																			</div>
 																			<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																				<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																					Liberated Fighter
-
 																				</div>
 																			</tp-yt-paper-tooltip>
 																		</div>
@@ -1857,7 +1721,6 @@
 																	</ytd-channel-name>
 																</div>
 																<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																	<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																		<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -1893,7 +1756,6 @@
 															<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=LPfOnPqISxc">
 																	<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition" style="background-color: transparent;" loaded=""><img id="img" class="style-scope yt-img-shadow" alt="" width="360" src="https://i.ytimg.com/vi/LPfOnPqISxc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAUbYUBpHs5YNtLFw0fCZDXayaQQA"></yt-img-shadow>
-
 																	<div id="overlays" class="style-scope ytd-thumbnail">
 																		<ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT">
 																			<yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon>
@@ -1961,9 +1823,7 @@
 																						</div>
 																						<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																							<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																								Loku
-
 																							</div>
 																						</tp-yt-paper-tooltip>
 																					</div>
@@ -1991,9 +1851,7 @@
 																				<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																			</div>
 																			<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																				<span class="style-scope ytd-video-meta-block">185K views</span>
-
 																				<span class="style-scope ytd-video-meta-block">1 year ago</span>
 																				<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																					<template is="dom-repeat"></template>
@@ -2005,7 +1863,6 @@
 																				<template is="dom-repeat"></template>
 																			</dom-repeat>
 																		</div>
-
 																	</ytd-video-meta-block>
 																</div>
 																<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -2021,9 +1878,7 @@
 																			</div>
 																			<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																				<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																					Loku
-
 																				</div>
 																			</tp-yt-paper-tooltip>
 																		</div>
@@ -2050,7 +1905,6 @@
 																	</ytd-channel-name>
 																</div>
 																<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																	<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																		<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -2102,7 +1956,6 @@
 															<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=Iu7Ixskp0dY">
 																	<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition" style="background-color: transparent;" loaded=""><img id="img" class="style-scope yt-img-shadow" alt="" width="360" src="https://i.ytimg.com/vi/Iu7Ixskp0dY/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLA9Ha6TITe57akPu-jUeNusSy7m7g"></yt-img-shadow>
-
 																	<div id="overlays" class="style-scope ytd-thumbnail">
 																		<ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT">
 																			<yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon>
@@ -2170,9 +2023,7 @@
 																						</div>
 																						<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																							<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																								Lidya Kamila
-
 																							</div>
 																						</tp-yt-paper-tooltip>
 																					</div>
@@ -2181,9 +2032,7 @@
 																				<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																			</div>
 																			<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																				<span class="style-scope ytd-video-meta-block">3M views</span>
-
 																				<span class="style-scope ytd-video-meta-block">12 years ago</span>
 																				<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																					<template is="dom-repeat"></template>
@@ -2195,7 +2044,6 @@
 																				<template is="dom-repeat"></template>
 																			</dom-repeat>
 																		</div>
-
 																	</ytd-video-meta-block>
 																</div>
 																<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -2211,9 +2059,7 @@
 																			</div>
 																			<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																				<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																					Lidya Kamila
-
 																				</div>
 																			</tp-yt-paper-tooltip>
 																		</div>
@@ -2221,7 +2067,6 @@
 																	</ytd-channel-name>
 																</div>
 																<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																	<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																		<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -2253,7 +2098,6 @@
 															<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=QFlLybox4To">
 																	<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																	<div id="overlays" class="style-scope ytd-thumbnail">
 																		<ytd-thumbnail-overlay-resume-playback-renderer class="style-scope ytd-thumbnail">
 																			<div id="progress" class="style-scope ytd-thumbnail-overlay-resume-playback-renderer" style="width: 10%;"></div>
@@ -2324,9 +2168,7 @@
 																						</div>
 																						<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																							<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																								DisneyMusicVEVO
-
 																							</div>
 																						</tp-yt-paper-tooltip>
 																					</div>
@@ -2354,9 +2196,7 @@
 																				<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																			</div>
 																			<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																				<span class="style-scope ytd-video-meta-block">291M views</span>
-
 																				<span class="style-scope ytd-video-meta-block">5 years ago</span>
 																				<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																					<template is="dom-repeat"></template>
@@ -2368,7 +2208,6 @@
 																				<template is="dom-repeat"></template>
 																			</dom-repeat>
 																		</div>
-
 																	</ytd-video-meta-block>
 																</div>
 																<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -2384,9 +2223,7 @@
 																			</div>
 																			<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																				<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																					DisneyMusicVEVO
-
 																				</div>
 																			</tp-yt-paper-tooltip>
 																		</div>
@@ -2413,7 +2250,6 @@
 																	</ytd-channel-name>
 																</div>
 																<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																	<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																		<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -2453,7 +2289,6 @@
 															<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=zRanZOL2cSM">
 																	<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																	<div id="overlays" class="style-scope ytd-thumbnail">
 																		<ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT">
 																			<yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon>
@@ -2521,9 +2356,7 @@
 																						</div>
 																						<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																							<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																								Brian James
-
 																							</div>
 																						</tp-yt-paper-tooltip>
 																					</div>
@@ -2532,9 +2365,7 @@
 																				<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																			</div>
 																			<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																				<span class="style-scope ytd-video-meta-block">19K views</span>
-
 																				<span class="style-scope ytd-video-meta-block">4 months ago</span>
 																				<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																					<template is="dom-repeat"></template>
@@ -2546,7 +2377,6 @@
 																				<template is="dom-repeat"></template>
 																			</dom-repeat>
 																		</div>
-
 																	</ytd-video-meta-block>
 																</div>
 																<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -2562,9 +2392,7 @@
 																			</div>
 																			<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																				<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																					Brian James
-
 																				</div>
 																			</tp-yt-paper-tooltip>
 																		</div>
@@ -2572,7 +2400,6 @@
 																	</ytd-channel-name>
 																</div>
 																<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																	<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																		<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -2604,7 +2431,6 @@
 															<div class="grid-subheader style-scope ytd-shelf-renderer">
 																<div id="title-container" class="style-scope ytd-shelf-renderer">
 																	<h2 class="style-scope ytd-shelf-renderer">
-
 																		<yt-icon id="icon" class="style-scope ytd-shelf-renderer" disable-upgrade="" hidden=""></yt-icon>
 																		<span id="title" class="style-scope ytd-shelf-renderer">People also watched</span>
 																		<dom-if class="style-scope ytd-shelf-renderer">
@@ -2632,7 +2458,6 @@
 																				<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																					<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=-ScjucUV8v0">
 																						<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																						<div id="overlays" class="style-scope ytd-thumbnail">
 																							<ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT">
 																								<yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon>
@@ -2700,9 +2525,7 @@
 																											</div>
 																											<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																												<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																													Christina Aguilera
-
 																												</div>
 																											</tp-yt-paper-tooltip>
 																										</div>
@@ -2730,9 +2553,7 @@
 																									<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																								</div>
 																								<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																									<span class="style-scope ytd-video-meta-block">240M views</span>
-
 																									<span class="style-scope ytd-video-meta-block">12 years ago</span>
 																									<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																										<template is="dom-repeat"></template>
@@ -2744,7 +2565,6 @@
 																									<template is="dom-repeat"></template>
 																								</dom-repeat>
 																							</div>
-
 																						</ytd-video-meta-block>
 																					</div>
 																					<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -2760,9 +2580,7 @@
 																								</div>
 																								<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																									<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																										Christina Aguilera
-
 																									</div>
 																								</tp-yt-paper-tooltip>
 																							</div>
@@ -2789,7 +2607,6 @@
 																						</ytd-channel-name>
 																					</div>
 																					<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																					<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																						<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																							<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -2831,7 +2648,6 @@
 																				<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																					<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=OoruyUJFHlM">
 																						<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																						<div id="overlays" class="style-scope ytd-thumbnail">
 																							<ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT">
 																								<yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon>
@@ -2899,9 +2715,7 @@
 																											</div>
 																											<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																												<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																													jesus sanchez
-
 																												</div>
 																											</tp-yt-paper-tooltip>
 																										</div>
@@ -2914,9 +2728,7 @@
 																									<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																								</div>
 																								<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																									<span class="style-scope ytd-video-meta-block">360K views</span>
-
 																									<span class="style-scope ytd-video-meta-block">4 years ago</span>
 																									<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																										<template is="dom-repeat"></template>
@@ -2928,7 +2740,6 @@
 																									<template is="dom-repeat"></template>
 																								</dom-repeat>
 																							</div>
-
 																						</ytd-video-meta-block>
 																					</div>
 																					<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -2944,9 +2755,7 @@
 																								</div>
 																								<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																									<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																										jesus sanchez
-
 																									</div>
 																								</tp-yt-paper-tooltip>
 																							</div>
@@ -2958,7 +2767,6 @@
 																						</ytd-channel-name>
 																					</div>
 																					<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																					<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																						<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																							<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -2990,7 +2798,6 @@
 																				<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																					<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=ZyhrYis509A">
 																						<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																						<div id="overlays" class="style-scope ytd-thumbnail">
 																							<ytd-thumbnail-overlay-resume-playback-renderer class="style-scope ytd-thumbnail">
 																								<div id="progress" class="style-scope ytd-thumbnail-overlay-resume-playback-renderer" style="width: 100%;"></div>
@@ -3061,9 +2868,7 @@
 																											</div>
 																											<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																												<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																													Aqua
-
 																												</div>
 																											</tp-yt-paper-tooltip>
 																										</div>
@@ -3091,9 +2896,7 @@
 																									<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																								</div>
 																								<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																									<span class="style-scope ytd-video-meta-block">965M views</span>
-
 																									<span class="style-scope ytd-video-meta-block">11 years ago</span>
 																									<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																										<template is="dom-repeat"></template>
@@ -3105,7 +2908,6 @@
 																									<template is="dom-repeat"></template>
 																								</dom-repeat>
 																							</div>
-
 																						</ytd-video-meta-block>
 																					</div>
 																					<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -3121,9 +2923,7 @@
 																								</div>
 																								<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																									<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																										Aqua
-
 																									</div>
 																								</tp-yt-paper-tooltip>
 																							</div>
@@ -3150,7 +2950,6 @@
 																						</ytd-channel-name>
 																					</div>
 																					<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																					<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																						<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																							<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -3182,7 +2981,6 @@
 																				<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																					<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=A3QAqZQYLIQ">
 																						<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																						<div id="overlays" class="style-scope ytd-thumbnail">
 																							<ytd-thumbnail-overlay-resume-playback-renderer class="style-scope ytd-thumbnail">
 																								<div id="progress" class="style-scope ytd-thumbnail-overlay-resume-playback-renderer" style="width: 100%;"></div>
@@ -3253,9 +3051,7 @@
 																											</div>
 																											<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																												<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																													TitanicMemorial
-
 																												</div>
 																											</tp-yt-paper-tooltip>
 																										</div>
@@ -3268,9 +3064,7 @@
 																									<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																								</div>
 																								<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																									<span class="style-scope ytd-video-meta-block">5.4M views</span>
-
 																									<span class="style-scope ytd-video-meta-block">12 years ago</span>
 																									<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																										<template is="dom-repeat"></template>
@@ -3282,7 +3076,6 @@
 																									<template is="dom-repeat"></template>
 																								</dom-repeat>
 																							</div>
-
 																						</ytd-video-meta-block>
 																					</div>
 																					<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -3298,9 +3091,7 @@
 																								</div>
 																								<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																									<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																										TitanicMemorial
-
 																									</div>
 																								</tp-yt-paper-tooltip>
 																							</div>
@@ -3312,7 +3103,6 @@
 																						</ytd-channel-name>
 																					</div>
 																					<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																					<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																						<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																							<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -3363,7 +3153,6 @@
 															<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=bAKxnkIvMQ4">
 																	<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																	<div id="overlays" class="style-scope ytd-thumbnail">
 																		<ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT">
 																			<yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon>
@@ -3431,9 +3220,7 @@
 																						</div>
 																						<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																							<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																								Xtina Daily
-
 																							</div>
 																						</tp-yt-paper-tooltip>
 																					</div>
@@ -3442,9 +3229,7 @@
 																				<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																			</div>
 																			<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																				<span class="style-scope ytd-video-meta-block">17K views</span>
-
 																				<span class="style-scope ytd-video-meta-block">10 months ago</span>
 																				<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																					<template is="dom-repeat"></template>
@@ -3456,7 +3241,6 @@
 																				<template is="dom-repeat"></template>
 																			</dom-repeat>
 																		</div>
-
 																	</ytd-video-meta-block>
 																</div>
 																<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -3472,9 +3256,7 @@
 																			</div>
 																			<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																				<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																					Xtina Daily
-
 																				</div>
 																			</tp-yt-paper-tooltip>
 																		</div>
@@ -3482,7 +3264,6 @@
 																	</ytd-channel-name>
 																</div>
 																<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																	<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																		<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -3514,7 +3295,6 @@
 															<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=R10qTLfwm8E">
 																	<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																	<div id="overlays" class="style-scope ytd-thumbnail">
 																		<ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT">
 																			<yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon>
@@ -3582,9 +3362,7 @@
 																						</div>
 																						<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																							<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																								The Late Late Show with James Corden
-
 																							</div>
 																						</tp-yt-paper-tooltip>
 																					</div>
@@ -3612,9 +3390,7 @@
 																				<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																			</div>
 																			<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																				<span class="style-scope ytd-video-meta-block">27M views</span>
-
 																				<span class="style-scope ytd-video-meta-block">3 years ago</span>
 																				<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																					<template is="dom-repeat"></template>
@@ -3626,7 +3402,6 @@
 																				<template is="dom-repeat"></template>
 																			</dom-repeat>
 																		</div>
-
 																	</ytd-video-meta-block>
 																</div>
 																<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -3642,9 +3417,7 @@
 																			</div>
 																			<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																				<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																					The Late Late Show with James Corden
-
 																				</div>
 																			</tp-yt-paper-tooltip>
 																		</div>
@@ -3671,7 +3444,6 @@
 																	</ytd-channel-name>
 																</div>
 																<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																	<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																		<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -3723,7 +3495,6 @@
 															<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=VgvfheKRr1Q">
 																	<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																	<div id="overlays" class="style-scope ytd-thumbnail">
 																		<ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT">
 																			<yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon>
@@ -3791,9 +3562,7 @@
 																						</div>
 																						<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																							<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																								KK Pink-Factor
-
 																							</div>
 																						</tp-yt-paper-tooltip>
 																					</div>
@@ -3802,9 +3571,7 @@
 																				<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																			</div>
 																			<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																				<span class="style-scope ytd-video-meta-block">657K views</span>
-
 																				<span class="style-scope ytd-video-meta-block">12 years ago</span>
 																				<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																					<template is="dom-repeat"></template>
@@ -3816,7 +3583,6 @@
 																				<template is="dom-repeat"></template>
 																			</dom-repeat>
 																		</div>
-
 																	</ytd-video-meta-block>
 																</div>
 																<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -3832,9 +3598,7 @@
 																			</div>
 																			<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																				<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																					KK Pink-Factor
-
 																				</div>
 																			</tp-yt-paper-tooltip>
 																		</div>
@@ -3861,7 +3625,6 @@
 															<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=hpspGHeLOPE">
 																	<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																	<div id="overlays" class="style-scope ytd-thumbnail">
 																		<ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT">
 																			<yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon>
@@ -3929,9 +3692,7 @@
 																						</div>
 																						<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																							<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																								Christina Aguilera
-
 																							</div>
 																						</tp-yt-paper-tooltip>
 																					</div>
@@ -3959,9 +3720,7 @@
 																				<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																			</div>
 																			<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																				<span class="style-scope ytd-video-meta-block">38M views</span>
-
 																				<span class="style-scope ytd-video-meta-block">12 years ago</span>
 																				<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																					<template is="dom-repeat"></template>
@@ -3973,7 +3732,6 @@
 																				<template is="dom-repeat"></template>
 																			</dom-repeat>
 																		</div>
-
 																	</ytd-video-meta-block>
 																</div>
 																<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -3989,9 +3747,7 @@
 																			</div>
 																			<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																				<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																					Christina Aguilera
-
 																				</div>
 																			</tp-yt-paper-tooltip>
 																		</div>
@@ -4018,7 +3774,6 @@
 																	</ytd-channel-name>
 																</div>
 																<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																	<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																		<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -4060,7 +3815,6 @@
 															<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=1BlaIzY1vJg">
 																	<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																	<div id="overlays" class="style-scope ytd-thumbnail">
 																		<ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT">
 																			<yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon>
@@ -4128,9 +3882,7 @@
 																						</div>
 																						<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																							<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																								Josep Lluis Rivera Garcia
-
 																							</div>
 																						</tp-yt-paper-tooltip>
 																					</div>
@@ -4143,9 +3895,7 @@
 																				<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																			</div>
 																			<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																				<span class="style-scope ytd-video-meta-block">307K views</span>
-
 																				<span class="style-scope ytd-video-meta-block">5 years ago</span>
 																				<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																					<template is="dom-repeat"></template>
@@ -4157,7 +3907,6 @@
 																				<template is="dom-repeat"></template>
 																			</dom-repeat>
 																		</div>
-
 																	</ytd-video-meta-block>
 																</div>
 																<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -4173,9 +3922,7 @@
 																			</div>
 																			<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																				<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																					Josep Lluis Rivera Garcia
-
 																				</div>
 																			</tp-yt-paper-tooltip>
 																		</div>
@@ -4187,7 +3934,6 @@
 																	</ytd-channel-name>
 																</div>
 																<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																	<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																		<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -4219,7 +3965,6 @@
 															<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=WA-daItIjdQ">
 																	<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																	<div id="overlays" class="style-scope ytd-thumbnail">
 																		<ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT">
 																			<yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon>
@@ -4287,9 +4032,7 @@
 																						</div>
 																						<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																							<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																								Mr. Baken
-
 																							</div>
 																						</tp-yt-paper-tooltip>
 																					</div>
@@ -4302,9 +4045,7 @@
 																				<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																			</div>
 																			<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																				<span class="style-scope ytd-video-meta-block">551K views</span>
-
 																				<span class="style-scope ytd-video-meta-block">9 years ago</span>
 																				<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																					<template is="dom-repeat"></template>
@@ -4316,7 +4057,6 @@
 																				<template is="dom-repeat"></template>
 																			</dom-repeat>
 																		</div>
-
 																	</ytd-video-meta-block>
 																</div>
 																<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -4332,9 +4072,7 @@
 																			</div>
 																			<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																				<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																					Mr. Baken
-
 																				</div>
 																			</tp-yt-paper-tooltip>
 																		</div>
@@ -4346,7 +4084,6 @@
 																	</ytd-channel-name>
 																</div>
 																<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																	<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																		<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -4390,7 +4127,6 @@
 															<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=eAfyFTzZDMM">
 																	<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																	<div id="overlays" class="style-scope ytd-thumbnail">
 																		<ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT">
 																			<yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon>
@@ -4458,9 +4194,7 @@
 																						</div>
 																						<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																							<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																								Christina Aguilera
-
 																							</div>
 																						</tp-yt-paper-tooltip>
 																					</div>
@@ -4488,9 +4222,7 @@
 																				<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																			</div>
 																			<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																				<span class="style-scope ytd-video-meta-block">133M views</span>
-
 																				<span class="style-scope ytd-video-meta-block">12 years ago</span>
 																				<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																					<template is="dom-repeat"></template>
@@ -4502,7 +4234,6 @@
 																				<template is="dom-repeat"></template>
 																			</dom-repeat>
 																		</div>
-
 																	</ytd-video-meta-block>
 																</div>
 																<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -4518,9 +4249,7 @@
 																			</div>
 																			<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																				<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																					Christina Aguilera
-
 																				</div>
 																			</tp-yt-paper-tooltip>
 																		</div>
@@ -4547,7 +4276,6 @@
 																	</ytd-channel-name>
 																</div>
 																<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																	<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																		<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -4579,7 +4307,6 @@
 															<div class="grid-subheader style-scope ytd-shelf-renderer">
 																<div id="title-container" class="style-scope ytd-shelf-renderer">
 																	<h2 class="style-scope ytd-shelf-renderer">
-
 																		<yt-icon id="icon" class="style-scope ytd-shelf-renderer" disable-upgrade="" hidden=""></yt-icon>
 																		<span id="title" class="style-scope ytd-shelf-renderer">For you</span>
 																		<dom-if class="style-scope ytd-shelf-renderer">
@@ -4607,7 +4334,6 @@
 																				<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																					<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=W7jkygJ_QNo">
 																						<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																						<div id="overlays" class="style-scope ytd-thumbnail">
 																							<ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT">
 																								<yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon>
@@ -4675,9 +4401,7 @@
 																											</div>
 																											<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																												<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																													GlassworksVFX
-
 																												</div>
 																											</tp-yt-paper-tooltip>
 																										</div>
@@ -4690,9 +4414,7 @@
 																									<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																								</div>
 																								<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																									<span class="style-scope ytd-video-meta-block">40M views</span>
-
 																									<span class="style-scope ytd-video-meta-block">11 years ago</span>
 																									<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																										<template is="dom-repeat"></template>
@@ -4704,7 +4426,6 @@
 																									<template is="dom-repeat"></template>
 																								</dom-repeat>
 																							</div>
-
 																						</ytd-video-meta-block>
 																					</div>
 																					<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -4720,9 +4441,7 @@
 																								</div>
 																								<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																									<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																										GlassworksVFX
-
 																									</div>
 																								</tp-yt-paper-tooltip>
 																							</div>
@@ -4734,7 +4453,6 @@
 																						</ytd-channel-name>
 																					</div>
 																					<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																					<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																						<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																							<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -4770,7 +4488,6 @@
 																				<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																					<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=uPD0QOGTmMI">
 																						<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																						<div id="overlays" class="style-scope ytd-thumbnail">
 																							<ytd-thumbnail-overlay-resume-playback-renderer class="style-scope ytd-thumbnail">
 																								<div id="progress" class="style-scope ytd-thumbnail-overlay-resume-playback-renderer" style="width: 100%;"></div>
@@ -4841,9 +4558,7 @@
 																											</div>
 																											<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																												<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																													The Weeknd
-
 																												</div>
 																											</tp-yt-paper-tooltip>
 																										</div>
@@ -4871,9 +4586,7 @@
 																									<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																								</div>
 																								<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																									<span class="style-scope ytd-video-meta-block">476K views</span>
-
 																									<span class="style-scope ytd-video-meta-block">3 hours ago</span>
 																									<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																										<template is="dom-repeat"></template>
@@ -4885,7 +4598,6 @@
 																									<template is="dom-repeat"></template>
 																								</dom-repeat>
 																							</div>
-
 																						</ytd-video-meta-block>
 																					</div>
 																					<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -4901,9 +4613,7 @@
 																								</div>
 																								<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																									<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																										The Weeknd
-
 																									</div>
 																								</tp-yt-paper-tooltip>
 																							</div>
@@ -4930,7 +4640,6 @@
 																						</ytd-channel-name>
 																					</div>
 																					<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																					<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																						<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																							<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -4951,7 +4660,6 @@
 																							<yt-icon class="style-scope ytd-badge-supported-renderer" disable-upgrade="" hidden=""></yt-icon>
 																							<span class="style-scope ytd-badge-supported-renderer">New</span>
 																						</div>
-
 																						<div class="badge badge-style-type-simple style-scope ytd-badge-supported-renderer" aria-label="Closed captions">
 																							<yt-icon class="style-scope ytd-badge-supported-renderer" disable-upgrade="" hidden=""></yt-icon>
 																							<span class="style-scope ytd-badge-supported-renderer">CC</span>
@@ -4975,7 +4683,6 @@
 																				<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																					<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=W4T6vCSUCgI">
 																						<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																						<div id="overlays" class="style-scope ytd-thumbnail">
 																							<ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT">
 																								<yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon>
@@ -5043,9 +4750,7 @@
 																											</div>
 																											<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																												<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																													Britney Army
-
 																												</div>
 																											</tp-yt-paper-tooltip>
 																										</div>
@@ -5054,9 +4759,7 @@
 																									<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																								</div>
 																								<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																									<span class="style-scope ytd-video-meta-block">262K views</span>
-
 																									<span class="style-scope ytd-video-meta-block">1 year ago</span>
 																									<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																										<template is="dom-repeat"></template>
@@ -5068,7 +4771,6 @@
 																									<template is="dom-repeat"></template>
 																								</dom-repeat>
 																							</div>
-
 																						</ytd-video-meta-block>
 																					</div>
 																					<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -5084,9 +4786,7 @@
 																								</div>
 																								<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																									<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																										Britney Army
-
 																									</div>
 																								</tp-yt-paper-tooltip>
 																							</div>
@@ -5094,7 +4794,6 @@
 																						</ytd-channel-name>
 																					</div>
 																					<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																					<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																						<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																							<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -5157,7 +4856,6 @@
 															<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=AaoC-dN3ezk">
 																	<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																	<div id="overlays" class="style-scope ytd-thumbnail">
 																		<ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT">
 																			<yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon>
@@ -5225,9 +4923,7 @@
 																						</div>
 																						<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																							<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																								Christina Aguilera TV
-
 																							</div>
 																						</tp-yt-paper-tooltip>
 																					</div>
@@ -5240,9 +4936,7 @@
 																				<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																			</div>
 																			<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																				<span class="style-scope ytd-video-meta-block">57K views</span>
-
 																				<span class="style-scope ytd-video-meta-block">7 years ago</span>
 																				<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																					<template is="dom-repeat"></template>
@@ -5254,7 +4948,6 @@
 																				<template is="dom-repeat"></template>
 																			</dom-repeat>
 																		</div>
-
 																	</ytd-video-meta-block>
 																</div>
 																<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -5270,9 +4963,7 @@
 																			</div>
 																			<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																				<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																					Christina Aguilera TV
-
 																				</div>
 																			</tp-yt-paper-tooltip>
 																		</div>
@@ -5302,7 +4993,6 @@
 														<ytd-thumbnail use-hovered-property="" class="style-scope ytd-radio-renderer">
 															<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=kIDWgqDBNXA&amp;list=RDkIDWgqDBNXA&amp;start_radio=1">
 																<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																<div id="overlays" class="style-scope ytd-thumbnail">
 																	<ytd-thumbnail-overlay-bottom-panel-renderer class="style-scope ytd-thumbnail" style="background-color: rgba(114, 63, 24, 0.8);">
 																		<yt-icon class="style-scope ytd-thumbnail-overlay-bottom-panel-renderer">
@@ -5349,9 +5039,7 @@
 																					</div>
 																					<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																						<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																							YouTube
-
 																						</div>
 																					</tp-yt-paper-tooltip>
 																				</div>
@@ -5370,11 +5058,9 @@
 																			<template is="dom-repeat"></template>
 																		</dom-repeat>
 																	</div>
-
 																</ytd-video-meta-block>
 															</a>
 															<ul id="list" class="style-scope ytd-radio-renderer">
-
 																<li class="style-scope ytd-radio-renderer">
 																	<ytd-child-video-renderer class="style-scope ytd-radio-renderer">
 																		<a class="yt-simple-endpoint style-scope ytd-child-video-renderer" id="title" href="/watch?v=kIDWgqDBNXA&amp;list=RDkIDWgqDBNXA&amp;start_radio=1">
@@ -5383,7 +5069,6 @@
 																		</a>
 																	</ytd-child-video-renderer>
 																</li>
-
 																<li class="style-scope ytd-radio-renderer">
 																	<ytd-child-video-renderer class="style-scope ytd-radio-renderer">
 																		<a class="yt-simple-endpoint style-scope ytd-child-video-renderer" id="title" href="/watch?v=FrLequ6dUdM&amp;list=RDkIDWgqDBNXA&amp;start_radio=1">
@@ -5408,7 +5093,6 @@
 																<ytd-rich-list-header-renderer class="style-scope ytd-horizontal-card-list-renderer">
 																	<div class="title-row style-scope ytd-rich-list-header-renderer">
 																		<div id="avatar" class="style-scope ytd-rich-list-header-renderer"></div>
-
 																		<div id="title-text" class="style-scope ytd-rich-list-header-renderer">
 																			<yt-formatted-string id="title" class="style-scope ytd-rich-list-header-renderer">People also search for</yt-formatted-string>
 																			<yt-formatted-string id="subtitle" class="style-scope ytd-rich-list-header-renderer" hidden=""></yt-formatted-string>
@@ -5605,7 +5289,6 @@
 															<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=2wZXCQ8lYwo">
 																	<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																	<div id="overlays" class="style-scope ytd-thumbnail">
 																		<ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT">
 																			<yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon>
@@ -5673,9 +5356,7 @@
 																						</div>
 																						<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																							<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																								christinamultimedia
-
 																							</div>
 																						</tp-yt-paper-tooltip>
 																					</div>
@@ -5684,9 +5365,7 @@
 																				<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																			</div>
 																			<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																				<span class="style-scope ytd-video-meta-block">721K views</span>
-
 																				<span class="style-scope ytd-video-meta-block">13 years ago</span>
 																				<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																					<template is="dom-repeat"></template>
@@ -5698,7 +5377,6 @@
 																				<template is="dom-repeat"></template>
 																			</dom-repeat>
 																		</div>
-
 																	</ytd-video-meta-block>
 																</div>
 																<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -5714,9 +5392,7 @@
 																			</div>
 																			<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																				<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																					christinamultimedia
-
 																				</div>
 																			</tp-yt-paper-tooltip>
 																		</div>
@@ -5724,7 +5400,6 @@
 																	</ytd-channel-name>
 																</div>
 																<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																	<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																		<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -5756,7 +5431,6 @@
 															<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=jUkmz_mMiqA">
 																	<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																	<div id="overlays" class="style-scope ytd-thumbnail">
 																		<ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT">
 																			<yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon>
@@ -5824,9 +5498,7 @@
 																						</div>
 																						<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																							<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																								7 Mix Music
-
 																							</div>
 																						</tp-yt-paper-tooltip>
 																					</div>
@@ -5835,9 +5507,7 @@
 																				<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																			</div>
 																			<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																				<span class="style-scope ytd-video-meta-block">360 views</span>
-
 																				<span class="style-scope ytd-video-meta-block">6 months ago</span>
 																				<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																					<template is="dom-repeat"></template>
@@ -5849,7 +5519,6 @@
 																				<template is="dom-repeat"></template>
 																			</dom-repeat>
 																		</div>
-
 																	</ytd-video-meta-block>
 																</div>
 																<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -5865,9 +5534,7 @@
 																			</div>
 																			<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																				<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																					7 Mix Music
-
 																				</div>
 																			</tp-yt-paper-tooltip>
 																		</div>
@@ -5875,7 +5542,6 @@
 																	</ytd-channel-name>
 																</div>
 																<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																	<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																		<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -5915,7 +5581,6 @@
 															<div class="grid-subheader style-scope ytd-shelf-renderer">
 																<div id="title-container" class="style-scope ytd-shelf-renderer">
 																	<h2 class="style-scope ytd-shelf-renderer">
-
 																		<yt-icon id="icon" class="style-scope ytd-shelf-renderer" disable-upgrade="" hidden=""></yt-icon>
 																		<span id="title" class="style-scope ytd-shelf-renderer">Previously watched</span>
 																		<dom-if class="style-scope ytd-shelf-renderer">
@@ -5943,7 +5608,6 @@
 																				<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																					<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=6tpl9LtkRRw">
 																						<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																						<div id="overlays" class="style-scope ytd-thumbnail">
 																							<ytd-thumbnail-overlay-resume-playback-renderer class="style-scope ytd-thumbnail">
 																								<div id="progress" class="style-scope ytd-thumbnail-overlay-resume-playback-renderer" style="width: 100%;"></div>
@@ -6014,9 +5678,7 @@
 																											</div>
 																											<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																												<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																													Ne-Yo
-
 																												</div>
 																											</tp-yt-paper-tooltip>
 																										</div>
@@ -6044,9 +5706,7 @@
 																									<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																								</div>
 																								<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																									<span class="style-scope ytd-video-meta-block">286M views</span>
-
 																									<span class="style-scope ytd-video-meta-block">11 years ago</span>
 																									<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																										<template is="dom-repeat"></template>
@@ -6058,7 +5718,6 @@
 																									<template is="dom-repeat"></template>
 																								</dom-repeat>
 																							</div>
-
 																						</ytd-video-meta-block>
 																					</div>
 																					<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -6074,9 +5733,7 @@
 																								</div>
 																								<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																									<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																										Ne-Yo
-
 																									</div>
 																								</tp-yt-paper-tooltip>
 																							</div>
@@ -6103,7 +5760,6 @@
 																						</ytd-channel-name>
 																					</div>
 																					<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																					<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																						<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																							<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -6135,7 +5791,6 @@
 																				<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																					<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=jKIEUdAMtrQ">
 																						<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																						<div id="overlays" class="style-scope ytd-thumbnail">
 																							<ytd-thumbnail-overlay-resume-playback-renderer class="style-scope ytd-thumbnail">
 																								<div id="progress" class="style-scope ytd-thumbnail-overlay-resume-playback-renderer" style="width: 100%;"></div>
@@ -6206,9 +5861,7 @@
 																											</div>
 																											<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																												<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																													Faouzia
-
 																												</div>
 																											</tp-yt-paper-tooltip>
 																										</div>
@@ -6236,9 +5889,7 @@
 																									<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																								</div>
 																								<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																									<span class="style-scope ytd-video-meta-block">48M views</span>
-
 																									<span class="style-scope ytd-video-meta-block">9 months ago</span>
 																									<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																										<template is="dom-repeat"></template>
@@ -6250,7 +5901,6 @@
 																									<template is="dom-repeat"></template>
 																								</dom-repeat>
 																							</div>
-
 																						</ytd-video-meta-block>
 																					</div>
 																					<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -6266,9 +5916,7 @@
 																								</div>
 																								<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																									<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																										Faouzia
-
 																									</div>
 																								</tp-yt-paper-tooltip>
 																							</div>
@@ -6295,7 +5943,6 @@
 																						</ytd-channel-name>
 																					</div>
 																					<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																					<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																						<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																							<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -6349,7 +5996,6 @@
 															<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=EQmZbcbzDS8">
 																	<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																	<div id="overlays" class="style-scope ytd-thumbnail">
 																		<ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT">
 																			<yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon>
@@ -6417,9 +6063,7 @@
 																						</div>
 																						<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																							<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																								RETRO Random HD
-
 																							</div>
 																						</tp-yt-paper-tooltip>
 																					</div>
@@ -6428,9 +6072,7 @@
 																				<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																			</div>
 																			<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																				<span class="style-scope ytd-video-meta-block">2.5K views</span>
-
 																				<span class="style-scope ytd-video-meta-block">1 year ago</span>
 																				<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																					<template is="dom-repeat"></template>
@@ -6442,7 +6084,6 @@
 																				<template is="dom-repeat"></template>
 																			</dom-repeat>
 																		</div>
-
 																	</ytd-video-meta-block>
 																</div>
 																<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -6458,9 +6099,7 @@
 																			</div>
 																			<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																				<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																					RETRO Random HD
-
 																				</div>
 																			</tp-yt-paper-tooltip>
 																		</div>
@@ -6468,7 +6107,6 @@
 																	</ytd-channel-name>
 																</div>
 																<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																	<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																		<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -6500,7 +6138,6 @@
 															<ytd-thumbnail use-hovered-property="" class="style-scope ytd-video-renderer">
 																<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="/watch?v=6bsSSjdGHHo">
 																	<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition empty" style="background-color: transparent;"><img id="img" class="style-scope yt-img-shadow" alt="" width="360"></yt-img-shadow>
-
 																	<div id="overlays" class="style-scope ytd-thumbnail">
 																		<ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail" overlay-style="DEFAULT">
 																			<yt-icon class="style-scope ytd-thumbnail-overlay-time-status-renderer" disable-upgrade="" hidden=""></yt-icon>
@@ -6568,9 +6205,7 @@
 																						</div>
 																						<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																							<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																								0Ch3rry0
-
 																							</div>
 																						</tp-yt-paper-tooltip>
 																					</div>
@@ -6579,9 +6214,7 @@
 																				<div id="separator" class="style-scope ytd-video-meta-block">•</div>
 																			</div>
 																			<div id="metadata-line" class="style-scope ytd-video-meta-block">
-
 																				<span class="style-scope ytd-video-meta-block">2.3M views</span>
-
 																				<span class="style-scope ytd-video-meta-block">12 years ago</span>
 																				<dom-repeat strip-whitespace="" class="style-scope ytd-video-meta-block">
 																					<template is="dom-repeat"></template>
@@ -6593,7 +6226,6 @@
 																				<template is="dom-repeat"></template>
 																			</dom-repeat>
 																		</div>
-
 																	</ytd-video-meta-block>
 																</div>
 																<div id="channel-info" class="style-scope ytd-video-renderer">
@@ -6609,9 +6241,7 @@
 																			</div>
 																			<tp-yt-paper-tooltip fit-to-visible-bounds="" class="style-scope ytd-channel-name" role="tooltip" tabindex="-1">
 																				<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip">
-
 																					0Ch3rry0
-
 																				</div>
 																			</tp-yt-paper-tooltip>
 																		</div>
@@ -6619,7 +6249,6 @@
 																	</ytd-channel-name>
 																</div>
 																<yt-formatted-string id="description-text" class="style-scope ytd-video-renderer" hidden=""></yt-formatted-string>
-
 																<div class="metadata-snippet-container style-scope ytd-video-renderer">
 																	<a class="yt-simple-endpoint metadata-snippet-timestamp style-scope ytd-video-renderer" hidden="">
 																		<span id="time" class="style-scope ytd-video-renderer"></span>
@@ -6702,13 +6331,9 @@
 						<iron-media-query id="two-column-query" class="style-scope ytd-watch-flexy" style="display: none;"></iron-media-query>
 						<iron-media-query id="small-window-query" class="style-scope ytd-watch-flexy" style="display: none;"></iron-media-query>
 						<iron-media-query id="large-window-query" class="style-scope ytd-watch-flexy" style="display: none;"></iron-media-query>
-
 						<div id="microformat" class="style-scope ytd-watch-flexy"></div>
-
 						<div id="miniplayer-bar" class="style-scope ytd-watch-flexy"></div>
-
 						<div id="player-theater-container" class="style-scope ytd-watch-flexy"></div>
-
 						<div id="single-column-container" class="style-scope ytd-watch-flexy"></div>
 						<div id="columns" class="style-scope ytd-watch-flexy">
 							<div id="primary" class="style-scope ytd-watch-flexy">
@@ -7341,7 +6966,6 @@
 													</div>
 													<ytd-expander class="style-scope ytd-video-secondary-info-renderer" collapsed="" style="--ytd-expander-collapsed-height:60px;">
 														<div id="content" class="style-scope ytd-expander">
-
 															<div id="description" slot="content" class="style-scope ytd-video-secondary-info-renderer">
 																<yt-formatted-string class="content style-scope ytd-video-secondary-info-renderer" force-default-style="" split-lines=""></yt-formatted-string>
 																<ytd-structured-description-content-renderer class="style-scope ytd-video-secondary-info-renderer" disable-upgrade="" hidden=""></ytd-structured-description-content-renderer>
@@ -7357,30 +6981,23 @@
 														<tp-yt-paper-button id="more" aria-expanded="false" noink="" class="style-scope ytd-expander" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false" hidden="">
 															<yt-formatted-string class="more-button style-scope ytd-video-secondary-info-renderer" slot="more-button" role="button"></yt-formatted-string>
 														</tp-yt-paper-button>
-
 													</ytd-expander>
 												</div>
 											</ytd-video-secondary-info-renderer>
 										</div>
 									</div>
 									<div id="ticket-shelf" class="style-scope ytd-watch-flexy" hidden=""></div>
-
 									<dom-if restamp="" id="merch-shelf" class="style-scope ytd-watch-flexy">
 										<template is="dom-if"></template>
 									</dom-if>
 									<ytd-comments id="comments" class="style-scope ytd-watch-flexy" disable-upgrade="" hidden=""></ytd-comments>
 								</div>
 							</div>
-
 							<div id="secondary" class="style-scope ytd-watch-flexy">
 								<div id="secondary-inner" class="style-scope ytd-watch-flexy">
-
-
 									<dom-if restamp="" id="native-chat-template" class="style-scope ytd-watch-flexy">
 										<template is="dom-if"></template>
 									</dom-if>
-
-
 									<div id="panels" class="style-scope ytd-watch-flexy">
 										<ytd-watch-engagement-panels class="style-scope ytd-watch-flexy" disable-upgrade="" hidden=""></ytd-watch-engagement-panels>
 									</div>
@@ -7546,7 +7163,6 @@
 								</div>
 							</div>
 						</div>
-
 						<ytd-video-quality-promo-renderer id="speedyg" class="style-scope ytd-watch-flexy" disable-upgrade="" hidden=""></ytd-video-quality-promo-renderer>
 						<div id="survey" class="style-scope ytd-watch-flexy"></div>
 						<div id="engagement-panel-scrim" class="style-scope ytd-watch-flexy" hidden=""></div>
@@ -7695,7 +7311,6 @@
 			</defs>
 		</svg>
 		<iron-a11y-announcer>
-
 			<div class="style-scope iron-a11y-announcer" aria-live="polite"></div>
 		</iron-a11y-announcer>
 		<iframe src="about:blank" style="display: none;"></iframe><link rel="stylesheet" href="https://www.youtube.com/s/desktop/b75d77f8/cssbin/www-main-desktop-watch-page-skeleton-2x.css" name="www-main-desktop-watch-page-skeleton" nonce="X6epauANjCEisSVdPq0vRg" class="css-httpswwwyoutubecomsdesktopb75d77f8cssbinwwwmaindesktopwatchpageskeleton2xcss"><iframe class="gstl_50 sbdd_c" style="top: 48px; left: 457px; height: 457px; min-width: 571px; display: none;"></iframe>

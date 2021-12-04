@@ -1,0 +1,12 @@
+<ytd-topbar-menu-button-renderer[^>]*>(\n|.)*?<\/ytd-topbar-menu-button-renderer>
+<script[^>]*>(\n|.)*?<\/script>
+<style[^>]*>(\n|.)*?<\/style>
+<!--css-build:shady-->
+<!-- .+ -->
+
+<svg[^>]*>(\n|.)*?<\/svg>
+
+\t+\n
+\n{2,}
+
+

@@ -6,7 +6,7 @@ import { Page } from 'puppeteer-core';
 import Youtube from '@/api/youtube';
 import { getTopVideos } from '@/api/youtube/page';
 import { Video } from '@/types';
-import { readFile } from './util';
+import { readMockFile } from './util';
 import { findBestVideo } from '@/api/youtube/util';
 
 const mockPage = {
@@ -16,7 +16,7 @@ const mockPage = {
 	evaluate: (func: Function, ...args: [string | number]) => {
 		const { name } = func;
 		if (name === 'getTopVideos') {
-			const topVideos = readFile('youtubeSearchResult.json.mock');
+			const topVideos = readMockFile('youtubeSearchResult.json.mock');
 			return Promise.resolve(JSON.parse(topVideos) as Array<Video>);
 		}
 	}
@@ -32,14 +32,14 @@ describe('Youtube search result', () => {
 	});
 
 	test('Top videos', () => {
-		window.document.body.innerHTML = readFile('youtubeSearchResult.html.mock');
+		window.document.body.innerHTML = readMockFile('youtubeSearchResult.html.mock');
 
 		const videos = getTopVideos(3);
 		expect(videos.length).toBe(3);
 	});
 
 	test('Best video - One verified video', () => {
-		const topVideos = readFile('youtubeSearchResult.bestVideo-oneVerifiedVideos.json.mock');
+		const topVideos = readMockFile('youtubeSearchResult.bestVideo-oneVerifiedVideos.json.mock');
 
 		const bestVideo = findBestVideo(JSON.parse(topVideos) as Array<Video>);
 		// expect to return single video object only, not array
@@ -47,7 +47,7 @@ describe('Youtube search result', () => {
 	});
 
 	test('Best video - Two verified videos and one of it contains "Official" & "Video" word', () => {
-		const topVideos = readFile('youtubeSearchResult.bestVideo-twoVerifiedVideosAndContainsOfficialVideo.json.mock');
+		const topVideos = readMockFile('youtubeSearchResult.bestVideo-twoVerifiedVideosAndContainsOfficialVideo.json.mock');
 
 		const bestVideo = findBestVideo(JSON.parse(topVideos) as Array<Video>);
 		// expect to return single video object only, not array
@@ -55,7 +55,7 @@ describe('Youtube search result', () => {
 	});
 
 	test('Best video - Two verified videos and don\'t contains "Official" & "Video" word', () => {
-		const topVideos = readFile('youtubeSearchResult.bestVideo-twoVerifiedVideosAndNotContainsOfficialVideo.json.mock');
+		const topVideos = readMockFile('youtubeSearchResult.bestVideo-twoVerifiedVideosAndNotContainsOfficialVideo.json.mock');
 
 		const bestVideo = findBestVideo(JSON.parse(topVideos) as Array<Video>);
 		// expect to return array
@@ -63,7 +63,7 @@ describe('Youtube search result', () => {
 	});
 
 	test('Best video - Title contains channel name', () => {
-		const topVideos = readFile('youtubeSearchResult.bestVideo-titleContainsChannelName.json.mock');
+		const topVideos = readMockFile('youtubeSearchResult.bestVideo-titleContainsChannelName.json.mock');
 
 		const bestVideo = findBestVideo(JSON.parse(topVideos) as Array<Video>);
 		// expect to return single video object only, not array
@@ -71,7 +71,7 @@ describe('Youtube search result', () => {
 	});
 
 	test('Best video - Return first 2 videos (default)', () => {
-		const topVideos = readFile('youtubeSearchResult.bestVideo-default.json.mock');
+		const topVideos = readMockFile('youtubeSearchResult.bestVideo-default.json.mock');
 
 		const bestVideo = findBestVideo(JSON.parse(topVideos) as Array<Video>);
 		// expect to return array

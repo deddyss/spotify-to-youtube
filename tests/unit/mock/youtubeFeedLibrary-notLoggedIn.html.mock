@@ -1,16 +1,8 @@
 <html style="font-size: 10px;font-family: Roboto, Arial, sans-serif;" lang="en" dark="true" system-icons="" typography="" typography-spacing="" standardized-themed-scrollbar="">
 	<head>
-
-
 		<link rel="shortcut icon" href="https://www.youtube.com/s/desktop/b75d77f8/img/favicon.ico" type="image/x-icon"><link rel="icon" href="https://www.youtube.com/s/desktop/b75d77f8/img/favicon_32x32.png" sizes="32x32"><link rel="icon" href="https://www.youtube.com/s/desktop/b75d77f8/img/favicon_48x48.png" sizes="48x48"><link rel="icon" href="https://www.youtube.com/s/desktop/b75d77f8/img/favicon_96x96.png" sizes="96x96"><link rel="icon" href="https://www.youtube.com/s/desktop/b75d77f8/img/favicon_144x144.png" sizes="144x144"><link rel="preload" href="https://i.ytimg.com/generate_204" as="fetch"><link as="script" rel="preload" href="https://www.youtube.com/s/desktop/b75d77f8/jsbin/desktop_polymer.vflset/desktop_polymer.js" nonce="X6axldpZoUtR5k5XUFmdmw">
-
-
 		<link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;family=YouTube+Sans:wght@300..900&amp;display=swap" nonce="/d27/T4HCkLAS9Buz5Oahw" class="css-httpsfontsgoogleapiscomcss2familyRobotowght300400500700familyYouTubeSanswght300900displayswap"><link rel="stylesheet" href="https://www.youtube.com/s/desktop/b75d77f8/cssbin/www-main-desktop-home-page-skeleton-2x.css" nonce="/d27/T4HCkLAS9Buz5Oahw" class="css-httpswwwyoutubecomsdesktopb75d77f8cssbinwwwmaindesktophomepageskeleton2xcss"><link rel="stylesheet" href="https://www.youtube.com/s/desktop/b75d77f8/cssbin/www-onepick-2x.css" nonce="/d27/T4HCkLAS9Buz5Oahw" class="css-httpswwwyoutubecomsdesktopb75d77f8cssbinwwwonepick2xcss">
-
-
 		<meta name="theme-color" content="rgba(33,33,33,0.98)"><link rel="search" type="application/opensearchdescription+xml" href="https://www.youtube.com/opensearch?locale=en_US" title="YouTube"><link rel="manifest" href="/manifest.webmanifest" crossorigin="use-credentials"><div inlined-html=""></div>
-
-
 		<!-- Most common used flex styles -->
 		<dom-module id="iron-flex">
 			<template></template>
@@ -30,13 +22,9 @@
 		<dom-module id="iron-positioning">
 			<template></template>
 		</dom-module>
-
-
 		<title>Library - YouTube</title><link href="https://fonts.googleapis.com/css?family=Roboto:300italic,400italic,500italic,700italic" rel="stylesheet" class="css-httpsfontsgoogleapiscomcssfamilyRoboto300italic400italic500italic700italic"><link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400" rel="stylesheet" class="css-httpsfontsgoogleapiscomcssfamilyRobotoMono400"><link id="player-css" href="/s/player/10df06bb/www-player-2x-webp.css" rel="stylesheet">
 	</head>
 	<body dir="ltr" standardized-themed-scrollbar="">
-
-
 		<ytd-app standardized-themed-scrollbar="" scrollbar-color="" guide-persistent-and-visible="">
 			<yt-activity-manager class="style-scope ytd-app"></yt-activity-manager>
 			<yt-guide-manager id="guide-service" class="style-scope ytd-app"></yt-guide-manager>
@@ -158,7 +146,6 @@
 							<ytd-thumbnail width="78" class="style-scope ytd-miniplayer-toast">
 								<a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1">
 									<yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition"><img id="img" class="style-scope yt-img-shadow" alt="" width="78"></yt-img-shadow>
-
 									<div id="overlays" class="style-scope ytd-thumbnail"></div>
 									<div id="mouseover-overlay" class="style-scope ytd-thumbnail"></div>
 									<div id="hover-overlays" class="style-scope ytd-thumbnail"></div>
@@ -208,7 +195,6 @@
 										<div class="fill style-scope yt-interaction"></div>
 									</yt-interaction>
 								</yt-icon-button>
-
 								<ytd-topbar-logo-renderer id="logo" use-yoodle="" class="style-scope ytd-masthead">
 									<a class="yt-simple-endpoint style-scope ytd-topbar-logo-renderer" id="logo" href="/" title="YouTube Home">
 										<div class="style-scope ytd-topbar-logo-renderer">
@@ -346,59 +332,6 @@
 									<div class="masthead-skeleton-icon"></div>
 								</div>
 								<div id="buttons" class="style-scope ytd-masthead">
-									<ytd-topbar-menu-button-renderer class="style-scope ytd-masthead style-default" use-keyboard-focused="" is-icon-button="" has-no-text="">
-										<dom-if class="style-scope ytd-topbar-menu-button-renderer">
-											<template is="dom-if"></template>
-										</dom-if>
-										<div id="button" class="style-scope ytd-topbar-menu-button-renderer">
-											<a class="yt-simple-endpoint style-scope ytd-topbar-menu-button-renderer" tabindex="-1">
-												<yt-icon-button id="button" class="style-scope ytd-topbar-menu-button-renderer style-default" touch-feedback="">
-													<button id="button" class="style-scope yt-icon-button" aria-label="YouTube apps">
-														<yt-icon class="style-scope ytd-topbar-menu-button-renderer">
-															<svg viewbox="0 0 24 24" preserveaspectratio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
-																<g class="style-scope yt-icon">
-																	<path d="M16,4v4h4V4H16z M19,7h-2V5h2V7z M16,10v4h4v-4H16z M19,13h-2v-2h2V13z M10,4v4h4V4H10z M13,7h-2V5h2V7z M10,10v4h4v-4H10z M13,13h-2v-2h2V13z M16,16v4h4v-4H16z M19,19h-2v-2h2V19z M10,16v4h4v-4H10z M13,19h-2v-2h2V19z M4,4v4h4V4H4z M7,7H5V5h2V7z M4,10 v4h4v-4H4z M7,13H5v-2h2V13z M4,16v4h4v-4H4z M7,19H5v-2h2V19z" class="style-scope yt-icon"></path>
-																</g>
-															</svg>
-														</yt-icon>
-													</button>
-													<yt-interaction id="interaction" class="circular style-scope yt-icon-button">
-														<div class="stroke style-scope yt-interaction"></div>
-														<div class="fill style-scope yt-interaction"></div>
-													</yt-interaction>
-												</yt-icon-button>
-											</a>
-										</div>
-									</ytd-topbar-menu-button-renderer>
-									<ytd-topbar-menu-button-renderer class="style-scope ytd-masthead style-default" use-keyboard-focused="" is-icon-button="" has-no-text="">
-										<dom-if class="style-scope ytd-topbar-menu-button-renderer">
-											<template is="dom-if"></template>
-										</dom-if>
-										<div id="button" class="style-scope ytd-topbar-menu-button-renderer">
-											<a class="yt-simple-endpoint style-scope ytd-topbar-menu-button-renderer" tabindex="-1">
-												<yt-icon-button id="button" class="style-scope ytd-topbar-menu-button-renderer style-default" touch-feedback="">
-													<button id="button" class="style-scope yt-icon-button" aria-label="Settings">
-														<yt-icon class="style-scope ytd-topbar-menu-button-renderer">
-															<svg viewbox="0 0 24 24" preserveaspectratio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
-																<g class="style-scope yt-icon">
-																	<path d="M12,16.5c0.83,0,1.5,0.67,1.5,1.5s-0.67,1.5-1.5,1.5s-1.5-0.67-1.5-1.5S11.17,16.5,12,16.5z M10.5,12 c0,0.83,0.67,1.5,1.5,1.5s1.5-0.67,1.5-1.5s-0.67-1.5-1.5-1.5S10.5,11.17,10.5,12z M10.5,6c0,0.83,0.67,1.5,1.5,1.5 s1.5-0.67,1.5-1.5S12.83,4.5,12,4.5S10.5,5.17,10.5,6z" class="style-scope yt-icon"></path>
-																</g>
-															</svg>
-														</yt-icon>
-													</button>
-													<yt-interaction id="interaction" class="circular style-scope yt-icon-button">
-														<div class="stroke style-scope yt-interaction"></div>
-														<div class="fill style-scope yt-interaction"></div>
-													</yt-interaction>
-												</yt-icon-button>
-												<tp-yt-paper-tooltip class="style-scope ytd-topbar-menu-button-renderer" role="tooltip" tabindex="-1" style="inset: 56px auto auto 1255.59px;">
-													<div id="tooltip" class="style-scope tp-yt-paper-tooltip hidden">
-														Settings
-													</div>
-												</tp-yt-paper-tooltip>
-											</a>
-										</div>
-									</ytd-topbar-menu-button-renderer>
 									<ytd-button-renderer class="style-scope ytd-masthead style-suggestive size-small" use-keyboard-focused="" button-renderer="true" is-paper-button-with-icon="" is-paper-button="">
 										<a class="yt-simple-endpoint style-scope ytd-button-renderer" tabindex="-1" href="https://accounts.google.com/ServiceLogin?service=youtube&amp;uilel=3&amp;passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Ffeed%252Flibrary&amp;hl=en&amp;ec=65620">
 											<tp-yt-paper-button id="button" class="style-scope ytd-button-renderer style-suggestive size-small" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false" aria-label="Sign in">
@@ -420,15 +353,11 @@
 				</div>
 				<tp-yt-app-drawer id="guide" align="start" role="navigation" class="style-scope ytd-app" style="transition-duration: 0ms; touch-action: pan-y;" position="left" swipe-open="" opened="" persistent="">
 					<div id="scrim" class="style-scope tp-yt-app-drawer" style="transition-duration: 0ms;"></div>
-
-
 					<div id="contentContainer" class="style-scope tp-yt-app-drawer" position="left" style="transition-duration: 0ms;" swipe-open="" opened="" persistent="">
-
 						<div id="guide-wrapper" class="style-scope ytd-app">
 							<div id="guide-spacer" class="style-scope ytd-app"></div>
 							<div id="guide-content" class="style-scope ytd-app">
 								<div id="header" class="style-scope ytd-app" hidden="">
-
 									<yt-icon-button id="guide-button" pressed="true" toggleable="true" class="style-scope ytd-app" aria-label="Guide" touch-feedback="">
 										<button id="button" class="style-scope yt-icon-button" aria-pressed="true">
 											<yt-icon id="guide-icon" icon="yt-icons:menu" class="style-scope ytd-app">
@@ -480,7 +409,6 @@
 									</ytd-topbar-logo-renderer>
 								</div>
 								<div id="guide-inner-content" class="style-scope ytd-app">
-
 									<ytd-guide-renderer id="guide-renderer" class="style-scope ytd-app">
 										<div id="sections" class="style-scope ytd-guide-renderer">
 											<ytd-guide-section-renderer class="style-scope ytd-guide-renderer" guide-persistent-and-visible="">
@@ -491,7 +419,6 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" is-primary="" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="Home" href="/">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="false">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer">
 																	<svg viewbox="0 0 24 24" preserveaspectratio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
 																		<g class="style-scope yt-icon">
@@ -504,7 +431,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -515,7 +441,6 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" is-primary="" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="Explore" href="/feed/explore">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="false">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer">
 																	<svg viewbox="0 0 24 24" preserveaspectratio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
 																		<g class="style-scope yt-icon">
@@ -528,7 +453,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -539,7 +463,6 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" is-primary="" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="Subscriptions" href="/feed/subscriptions">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="false">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer">
 																	<svg viewbox="0 0 24 24" preserveaspectratio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
 																		<g class="style-scope yt-icon">
@@ -552,7 +475,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -570,7 +492,6 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" active="" is-primary="" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="Library" href="/feed/library">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="true">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer">
 																	<svg viewbox="0 0 24 24" preserveaspectratio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
 																		<g class="style-scope yt-icon">
@@ -583,7 +504,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -594,7 +514,6 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" is-primary="" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="History" href="/feed/history">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="false">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer">
 																	<svg viewbox="0 0 24 24" preserveaspectratio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
 																		<g class="style-scope yt-icon">
@@ -607,7 +526,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -642,14 +560,12 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="Music" href="/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="false">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer" disable-upgrade="{&quot;thumbnails&quot;:[{&quot;url&quot;:&quot;https://yt3.ggpht.com/Sz_hO_V88Kyilk8RpJncB0Mmq6anIpratssJHtL_ztNPXRGkaYiAvUe8iAEIszxOaCRiXFusEg=s88-c-k-c0x00ffffff-no-rj&quot;}]}" hidden=""></yt-icon>
 																<yt-img-shadow height="24" width="24" class="style-scope ytd-guide-entry-renderer no-transition" style="background-color: transparent;" loaded=""><img id="img" class="style-scope yt-img-shadow" height="24" width="24" alt="" src="https://yt3.ggpht.com/Sz_hO_V88Kyilk8RpJncB0Mmq6anIpratssJHtL_ztNPXRGkaYiAvUe8iAEIszxOaCRiXFusEg=s88-c-k-c0x00ffffff-no-rj"></yt-img-shadow>
 																<yt-formatted-string class="title style-scope ytd-guide-entry-renderer">Music</yt-formatted-string>
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -660,14 +576,12 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="Sports" href="/channel/UCEgdi0XIXXZ-qJOFPf4JSKw">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="false">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer" disable-upgrade="{&quot;thumbnails&quot;:[{&quot;url&quot;:&quot;https://yt3.ggpht.com/LsdzIYaitA_mAkQlCpCXjcegAD1ki9FNVG6FxsKqpGo2GmjkWGSbzec_N0eFnfIV0yuMJ4YaZA=s88-c-k-c0x00ffffff-no-rj&quot;}]}" hidden=""></yt-icon>
 																<yt-img-shadow height="24" width="24" class="style-scope ytd-guide-entry-renderer no-transition" style="background-color: transparent;" loaded=""><img id="img" class="style-scope yt-img-shadow" height="24" width="24" alt="" src="https://yt3.ggpht.com/LsdzIYaitA_mAkQlCpCXjcegAD1ki9FNVG6FxsKqpGo2GmjkWGSbzec_N0eFnfIV0yuMJ4YaZA=s88-c-k-c0x00ffffff-no-rj"></yt-img-shadow>
 																<yt-formatted-string class="title style-scope ytd-guide-entry-renderer">Sports</yt-formatted-string>
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -678,14 +592,12 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="Gaming" href="/gaming">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="false">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer" disable-upgrade="{&quot;thumbnails&quot;:[{&quot;url&quot;:&quot;https://yt3.ggpht.com/v9yr87aPTrcCk8aG7zxm40_8-FmEGpScB2YGtxVG7jk2u7JPDM3BqxaK7NG3OSCOF3czfBOvxQ=s88-c-k-c0x00ffffff-no-rj&quot;}]}" hidden=""></yt-icon>
 																<yt-img-shadow height="24" width="24" class="style-scope ytd-guide-entry-renderer no-transition" style="background-color: transparent;" loaded=""><img id="img" class="style-scope yt-img-shadow" height="24" width="24" alt="" src="https://yt3.ggpht.com/v9yr87aPTrcCk8aG7zxm40_8-FmEGpScB2YGtxVG7jk2u7JPDM3BqxaK7NG3OSCOF3czfBOvxQ=s88-c-k-c0x00ffffff-no-rj"></yt-img-shadow>
 																<yt-formatted-string class="title style-scope ytd-guide-entry-renderer">Gaming</yt-formatted-string>
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -696,14 +608,12 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="Movies &amp; Shows" href="/channel/UClgRkhTL3_hImCAmdLfDE4g">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="false">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer" disable-upgrade="{&quot;thumbnails&quot;:[{&quot;url&quot;:&quot;https://yt3.ggpht.com/6lo97rUTO7xhIBXZqLiaW2kA_eMBIEmqc27EqlKLyE4nAY-yzcKBG0Hs0YdUka3gJ629HcwgyzQ=s88-c-k-c0x00ffffff-no-rj&quot;}]}" hidden=""></yt-icon>
 																<yt-img-shadow height="24" width="24" class="style-scope ytd-guide-entry-renderer no-transition" style="background-color: transparent;" loaded=""><img id="img" class="style-scope yt-img-shadow" height="24" width="24" alt="" src="https://yt3.ggpht.com/6lo97rUTO7xhIBXZqLiaW2kA_eMBIEmqc27EqlKLyE4nAY-yzcKBG0Hs0YdUka3gJ629HcwgyzQ=s88-c-k-c0x00ffffff-no-rj"></yt-img-shadow>
 																<yt-formatted-string class="title style-scope ytd-guide-entry-renderer">Movies &amp; Shows</yt-formatted-string>
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -714,14 +624,12 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="News" href="/channel/UCYfdidRxbB8Qhf0Nx7ioOYw">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="false">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer" disable-upgrade="{&quot;thumbnails&quot;:[{&quot;url&quot;:&quot;https://yt3.ggpht.com/kd7a9lPMvLtuYlqMpFpteR8u0BNEEQMiOQ-atmUDKU2wavo80ZH17-pjf4tTREXfCxhioKZHx84=s88-c-k-c0x00ffffff-no-rj&quot;}]}" hidden=""></yt-icon>
 																<yt-img-shadow height="24" width="24" class="style-scope ytd-guide-entry-renderer no-transition" style="background-color: transparent;" loaded=""><img id="img" class="style-scope yt-img-shadow" height="24" width="24" alt="" src="https://yt3.ggpht.com/kd7a9lPMvLtuYlqMpFpteR8u0BNEEQMiOQ-atmUDKU2wavo80ZH17-pjf4tTREXfCxhioKZHx84=s88-c-k-c0x00ffffff-no-rj"></yt-img-shadow>
 																<yt-formatted-string class="title style-scope ytd-guide-entry-renderer">News</yt-formatted-string>
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -732,14 +640,12 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="Live" href="/channel/UC4R8DWoMoI7CAwX8_LjQHig">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="false">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer" disable-upgrade="{&quot;thumbnails&quot;:[{&quot;url&quot;:&quot;https://yt3.ggpht.com/8D6JlsnvwDZFMdcbjqVji82kggP3aXXbO-yBD0RFrKlp4G1zNt9wcqcVTSPnAI8GuUAbDYQwsg=s88-c-k-c0x00ffffff-no-rj&quot;}]}" hidden=""></yt-icon>
 																<yt-img-shadow height="24" width="24" class="style-scope ytd-guide-entry-renderer no-transition" style="background-color: transparent;" loaded=""><img id="img" class="style-scope yt-img-shadow" height="24" width="24" alt="" src="https://yt3.ggpht.com/8D6JlsnvwDZFMdcbjqVji82kggP3aXXbO-yBD0RFrKlp4G1zNt9wcqcVTSPnAI8GuUAbDYQwsg=s88-c-k-c0x00ffffff-no-rj"></yt-img-shadow>
 																<yt-formatted-string class="title style-scope ytd-guide-entry-renderer">Live</yt-formatted-string>
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -750,14 +656,12 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="Fashion &amp; Beauty" href="/channel/UCrpQ4p1Ql_hG8rKXIKM1MOQ">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="false">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer" disable-upgrade="{&quot;thumbnails&quot;:[{&quot;url&quot;:&quot;https://yt3.ggpht.com/n5DU5btKj0nfHAgy6iwUErYQiaI1Qaz_G81A2unkQC7DhT5mI7y9R0Ux7LTOeYOAdUymO-97Rg=s88-c-k-c0x00ffffff-no-rj&quot;}]}" hidden=""></yt-icon>
 																<yt-img-shadow height="24" width="24" class="style-scope ytd-guide-entry-renderer no-transition" style="background-color: transparent;" loaded=""><img id="img" class="style-scope yt-img-shadow" height="24" width="24" alt="" src="https://yt3.ggpht.com/n5DU5btKj0nfHAgy6iwUErYQiaI1Qaz_G81A2unkQC7DhT5mI7y9R0Ux7LTOeYOAdUymO-97Rg=s88-c-k-c0x00ffffff-no-rj"></yt-img-shadow>
 																<yt-formatted-string class="title style-scope ytd-guide-entry-renderer">Fashion &amp; Beauty</yt-formatted-string>
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -768,14 +672,12 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="Learning" href="/channel/UCtFRv9O2AHqOZjjynzrv-xg">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="false">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer" disable-upgrade="{&quot;thumbnails&quot;:[{&quot;url&quot;:&quot;https://yt3.ggpht.com/IDPZAxJWdGNqGc-jf2AMnfKTxrFrNZi8KUEGA-Ypwpp0ukdkiWne_jB8bMeuU0-kvShcxH7lg6I=s88-c-k-c0x00ffffff-no-rj&quot;}]}" hidden=""></yt-icon>
 																<yt-img-shadow height="24" width="24" class="style-scope ytd-guide-entry-renderer no-transition" style="background-color: transparent;" loaded=""><img id="img" class="style-scope yt-img-shadow" height="24" width="24" alt="" src="https://yt3.ggpht.com/IDPZAxJWdGNqGc-jf2AMnfKTxrFrNZi8KUEGA-Ypwpp0ukdkiWne_jB8bMeuU0-kvShcxH7lg6I=s88-c-k-c0x00ffffff-no-rj"></yt-img-shadow>
 																<yt-formatted-string class="title style-scope ytd-guide-entry-renderer">Learning</yt-formatted-string>
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -786,14 +688,12 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="Spotlight" href="/channel/UCgffSD0hpI0nglPAV_77dtA">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="false">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer" disable-upgrade="{&quot;thumbnails&quot;:[{&quot;url&quot;:&quot;https://yt3.ggpht.com/ytc/AKedOLSxYrWBGrqKE6PUEjk4_jNUZK8XiZ6w09rCc8cp=s88-c-k-c0x00ffffff-no-rj&quot;}]}" hidden=""></yt-icon>
 																<yt-img-shadow height="24" width="24" class="style-scope ytd-guide-entry-renderer no-transition" style="background-color: transparent;" loaded=""><img id="img" class="style-scope yt-img-shadow" height="24" width="24" alt="" src="https://yt3.ggpht.com/ytc/AKedOLSxYrWBGrqKE6PUEjk4_jNUZK8XiZ6w09rCc8cp=s88-c-k-c0x00ffffff-no-rj"></yt-img-shadow>
 																<yt-formatted-string class="title style-scope ytd-guide-entry-renderer">Spotlight</yt-formatted-string>
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -804,14 +704,12 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="360° Video" href="/channel/UCzuqhhs6NWbgTzMuM09WKDQ">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="false">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer" disable-upgrade="{&quot;thumbnails&quot;:[{&quot;url&quot;:&quot;https://yt3.ggpht.com/SwcBf1rCxQoDzmoQfVu6z_Ssb8U9ryJGhkfALXUG6X6sV2782taXL7l4C_8LABfn-8XF60ft=s88-c-k-c0x00ffffff-no-rj&quot;}]}" hidden=""></yt-icon>
 																<yt-img-shadow height="24" width="24" class="style-scope ytd-guide-entry-renderer no-transition" style="background-color: transparent;" loaded=""><img id="img" class="style-scope yt-img-shadow" height="24" width="24" alt="" src="https://yt3.ggpht.com/SwcBf1rCxQoDzmoQfVu6z_Ssb8U9ryJGhkfALXUG6X6sV2782taXL7l4C_8LABfn-8XF60ft=s88-c-k-c0x00ffffff-no-rj"></yt-img-shadow>
 																<yt-formatted-string class="title style-scope ytd-guide-entry-renderer">360° Video</yt-formatted-string>
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -829,7 +727,6 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="Browse channels" href="/feed/guide_builder">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="false">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer">
 																	<svg viewbox="0 0 24 24" preserveaspectratio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
 																		<g class="style-scope yt-icon">
@@ -842,7 +739,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -860,7 +756,6 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="YouTube Premium" href="/premium">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="false">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer">
 																	<svg viewbox="0 0 24 24" preserveaspectratio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
 																		<g class="style-scope yt-icon">
@@ -873,7 +768,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -884,7 +778,6 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="Live" href="/channel/UC4R8DWoMoI7CAwX8_LjQHig">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="false">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer">
 																	<svg viewbox="0 0 24 24" preserveaspectratio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
 																		<g class="style-scope yt-icon">
@@ -897,7 +790,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -915,7 +807,6 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="Settings" href="/account">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="false">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer">
 																	<svg viewbox="0 0 24 24" preserveaspectratio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
 																		<g class="style-scope yt-icon">
@@ -928,7 +819,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -939,7 +829,6 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="Report history" href="/reporthistory">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="false">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer">
 																	<svg viewbox="0 0 24 24" preserveaspectratio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
 																		<g class="style-scope yt-icon">
@@ -952,7 +841,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -963,7 +851,6 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="Help">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="false">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer">
 																	<svg viewbox="0 0 24 24" preserveaspectratio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
 																		<g class="style-scope yt-icon">
@@ -976,7 +863,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -987,7 +873,6 @@
 													<ytd-guide-entry-renderer class="style-scope ytd-guide-section-renderer" line-end-style="none">
 														<a id="endpoint" class="yt-simple-endpoint style-scope ytd-guide-entry-renderer" tabindex="-1" role="tablist" title="Send feedback">
 															<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" tabindex="0" aria-disabled="false" aria-selected="false">
-
 																<yt-icon class="guide-icon style-scope ytd-guide-entry-renderer">
 																	<svg viewbox="0 0 24 24" preserveaspectratio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
 																		<g class="style-scope yt-icon">
@@ -1000,7 +885,6 @@
 																<span class="guide-entry-count style-scope ytd-guide-entry-renderer"></span>
 																<yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" disable-upgrade=""></yt-icon>
 																<div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
-
 															</tp-yt-paper-item>
 														</a>
 														<yt-interaction class="style-scope ytd-guide-entry-renderer">
@@ -1028,7 +912,6 @@
 												<a slot="guide-links-secondary" href="https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen&amp;utm_source=ythp&amp;utm_medium=LeftNav&amp;utm_content=txt&amp;u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen" style="display: none;">How YouTube works</a>
 												<a slot="guide-links-secondary" href="/new" style="display: none;">Test new features</a>
 											</div>
-
 											<div id="copyright" slot="copyright" style="display: none;">
 												<div dir="ltr" style="display:inline">© 2021 Google LLC</div>
 											</div>
@@ -1040,7 +923,6 @@
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</tp-yt-app-drawer>
 				<ytd-mini-guide-renderer class="style-scope ytd-app" disable-upgrade="" hidden=""></ytd-mini-guide-renderer>
@@ -1050,7 +932,6 @@
 						<div id="masthead-ad" class="style-scope ytd-browse"></div>
 						<div id="header" class="style-scope ytd-browse"></div>
 						<div id="alerts" class="style-scope ytd-browse"></div>
-
 						<ytd-channel-legal-info-renderer class="style-scope ytd-browse" disable-upgrade="" hidden=""></ytd-channel-legal-info-renderer>
 						<ytd-playlist-sidebar-renderer class="style-scope ytd-browse" disable-upgrade="" hidden=""></ytd-playlist-sidebar-renderer>
 						<ytd-settings-sidebar-renderer class="style-scope ytd-browse" disable-upgrade="" hidden=""></ytd-settings-sidebar-renderer>
@@ -1105,8 +986,6 @@
 																	</yt-icon>
 																	<yt-formatted-string id="text" class="style-scope ytd-button-renderer style-suggestive size-small">Sign in</yt-formatted-string>
 																	<paper-ripple class="style-scope tp-yt-paper-button">
-
-
 																		<div id="background" class="style-scope paper-ripple"></div>
 																		<div id="waves" class="style-scope paper-ripple"></div>
 																	</paper-ripple>
@@ -1150,17 +1029,12 @@
 						</ytd-refresh>
 					</ytd-browse>
 					<ytd-watch-flexy class="style-scope ytd-page-manager" hidden="" js-panel-height_="" flexy-enable-small-window-sizing="" flexy-enable-large-window-sizing="" flexy="" expanded-clip-range="" is-four-three-to-sixteen-nine-video_="" is-two-columns_="" flexy-small-window_="" style="--ytd-watch-flexy-scrollbar-width:17px; --ytd-watch-flexy-space-below-player:136px;">
-
 						<iron-media-query id="two-column-query" class="style-scope ytd-watch-flexy" style="display: none;"></iron-media-query>
 						<iron-media-query id="small-window-query" class="style-scope ytd-watch-flexy" style="display: none;"></iron-media-query>
 						<iron-media-query id="large-window-query" class="style-scope ytd-watch-flexy" style="display: none;"></iron-media-query>
-
 						<div id="microformat" class="style-scope ytd-watch-flexy"></div>
-
 						<div id="miniplayer-bar" class="style-scope ytd-watch-flexy"></div>
-
 						<div id="player-theater-container" class="style-scope ytd-watch-flexy"></div>
-
 						<div id="single-column-container" class="style-scope ytd-watch-flexy"></div>
 						<div id="columns" class="style-scope ytd-watch-flexy">
 							<div id="primary" class="style-scope ytd-watch-flexy">
@@ -1793,7 +1667,6 @@
 													</div>
 													<ytd-expander class="style-scope ytd-video-secondary-info-renderer" collapsed="" style="--ytd-expander-collapsed-height:60px;">
 														<div id="content" class="style-scope ytd-expander">
-
 															<div id="description" slot="content" class="style-scope ytd-video-secondary-info-renderer">
 																<yt-formatted-string class="content style-scope ytd-video-secondary-info-renderer" force-default-style="" split-lines=""></yt-formatted-string>
 																<ytd-structured-description-content-renderer class="style-scope ytd-video-secondary-info-renderer" disable-upgrade="" hidden=""></ytd-structured-description-content-renderer>
@@ -1804,37 +1677,28 @@
 															<div id="collapsible" class="style-scope ytd-metadata-row-container-renderer" hidden=""></div>
 														</ytd-metadata-row-container-renderer>
 														<tp-yt-paper-button id="less" aria-expanded="true" noink="" class="style-scope ytd-expander" hidden="" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">
-
 															<yt-formatted-string class="less-button style-scope ytd-video-secondary-info-renderer" slot="less-button" role="button"></yt-formatted-string>
 														</tp-yt-paper-button>
 														<tp-yt-paper-button id="more" aria-expanded="false" noink="" class="style-scope ytd-expander" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false" hidden="">
-
 															<yt-formatted-string class="more-button style-scope ytd-video-secondary-info-renderer" slot="more-button" role="button"></yt-formatted-string>
 														</tp-yt-paper-button>
-
 													</ytd-expander>
 												</div>
 											</ytd-video-secondary-info-renderer>
 										</div>
 									</div>
 									<div id="ticket-shelf" class="style-scope ytd-watch-flexy" hidden=""></div>
-
 									<dom-if restamp="" id="merch-shelf" class="style-scope ytd-watch-flexy">
 										<template is="dom-if"></template>
 									</dom-if>
 									<ytd-comments id="comments" class="style-scope ytd-watch-flexy" disable-upgrade="" hidden=""></ytd-comments>
 								</div>
 							</div>
-
 							<div id="secondary" class="style-scope ytd-watch-flexy">
 								<div id="secondary-inner" class="style-scope ytd-watch-flexy">
-
-
 									<dom-if restamp="" id="native-chat-template" class="style-scope ytd-watch-flexy">
 										<template is="dom-if"></template>
 									</dom-if>
-
-
 									<div id="panels" class="style-scope ytd-watch-flexy">
 										<ytd-watch-engagement-panels class="style-scope ytd-watch-flexy" disable-upgrade="" hidden=""></ytd-watch-engagement-panels>
 									</div>
@@ -2000,7 +1864,6 @@
 								</div>
 							</div>
 						</div>
-
 						<ytd-video-quality-promo-renderer id="speedyg" class="style-scope ytd-watch-flexy" disable-upgrade="" hidden=""></ytd-video-quality-promo-renderer>
 						<div id="survey" class="style-scope ytd-watch-flexy"></div>
 						<div id="engagement-panel-scrim" class="style-scope ytd-watch-flexy" hidden=""></div>
@@ -2013,8 +1876,6 @@
 				<div id="progress" class="style-scope yt-page-navigation-progress"></div>
 			</yt-page-navigation-progress>
 		</ytd-app>
-
-
 		<svg style="position: absolute; height: 0; width: 0;" aria-hidden="true">
 			<defs>
 				<mask id="artwork__b" fill="#fff">
@@ -2150,14 +2011,8 @@
 				<circle id="ring__dot" cx="4" cy="4" r="2"></circle>
 			</defs>
 		</svg>
-
-
 		<iron-a11y-announcer>
-
-
 			<div class="style-scope iron-a11y-announcer" aria-live="polite"></div>
 		</iron-a11y-announcer>
-
-
 		<link rel="stylesheet" href="https://www.youtube.com/s/desktop/b75d77f8/cssbin/www-main-desktop-watch-page-skeleton-2x.css" name="www-main-desktop-watch-page-skeleton" nonce="/d27/T4HCkLAS9Buz5Oahw" class="css-httpswwwyoutubecomsdesktopb75d77f8cssbinwwwmaindesktopwatchpageskeleton2xcss"></body>
 </html></head></html>
