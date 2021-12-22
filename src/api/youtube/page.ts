@@ -18,27 +18,32 @@ export const getTopVideos = (size?: number): Array<Video> => {
 	const result: Array<Video> = [];
 	const topVideos: Array<HTMLElement> = Array.from(videos).slice(0, size ?? 3);
 	topVideos.forEach((video, index) => {
-		const thumbnailElement: HTMLImageElement | null = video.querySelector('ytd-thumbnail a#thumbnail yt-img-shadow img#img');
 		const titleElement: HTMLAnchorElement | null = video.querySelector('div#meta div#title-wrapper h3.title-and-badge a#video-title');
+		const thumbnailElement: HTMLImageElement | null = video.querySelector('ytd-thumbnail a#thumbnail yt-img-shadow img#img');
 		const channelElement: HTMLAnchorElement | null = video.querySelector('div#channel-info ytd-channel-name#channel-name div#container div#text-container yt-formatted-string#text a');
 		const badgeElement: HTMLDivElement | null = video.querySelector('div#channel-info ytd-channel-name#channel-name ytd-badge-supported-renderer div.badge');
 
 		if (titleElement && thumbnailElement && channelElement) {
-			let img: string = thumbnailElement.getAttribute('src') ?? '';
-			img = img.substring(0, img.indexOf('?'));
-
-			const title: string = titleElement.getAttribute('title') ?? '';
-			const url: string = 'https://www.youtube.com' + titleElement.getAttribute('href');
+			const href: string = titleElement.getAttribute('href') ?? '';
 			const meta: string = titleElement.getAttribute('aria-label') ?? '';
-			const views: number = parseInt(meta.split(' ').slice(-2)[0].replace(/,/g,''), 10);
 
+			const id: string = href.replace('/watch?v=', '');
+			const title: string = titleElement.getAttribute('title') ?? '';
 			const channel: string = channelElement.textContent ?? '';
-
+			const views: number = parseInt(meta.split(' ').slice(-2)[0].replace(/,/g,''), 10);
 			const official: boolean = badgeElement?.getAttribute('aria-label') === 'Official Artist Channel';
 			const verified: boolean = badgeElement?.getAttribute('aria-label') === 'Verified';
+			const url: string = 'https://www.youtube.com' + href;
+
+			let img: string = thumbnailElement.getAttribute('src') ?? '';
+			img = img.substring(0, img.indexOf('?'));
+			// empty image url
+			if (!img) {
+				img = `https://i.ytimg.com/vi/${id}/hq720.jpg`;
+			}
 
 			if (title && channel) {
-				result.push({ title, channel, views, official, verified, url, img, index });
+				result.push({ id, title, channel, views, official, verified, url, img, index });
 			}
 		}
 	});
@@ -79,12 +84,15 @@ export const clickVideoMenuAtIndex = (index?: number): boolean => {
 	return true;
 };
 
-export const clickSaveToPlaylistMenu = (): boolean => {
-	const menuPopupRenderer: HTMLElement | null = document.querySelector('ytd-menu-popup-renderer');
+export const videoPopupMenuSelector = 'ytd-menu-popup-renderer';
+
+export const clickSaveToPlaylistMenu = (menuPopupSelector: string): boolean => {
+	const menuPopupRenderer: HTMLElement | null = document.querySelector(menuPopupSelector);
 	if (menuPopupRenderer === null) {
 		return false;
 	}
-	if (isHidden(menuPopupRenderer)) {
+	const isMenuPopupRendererHidden: boolean = menuPopupRenderer.offsetParent === null;
+	if (isMenuPopupRendererHidden) {
 		return false;
 	}
 
@@ -106,23 +114,15 @@ export const getAddToPlaylistResponse = (response: HTTPResponse): boolean => {
 	return response.url().includes('/playlist/get_add_to_playlist?'); 
 };
 
-const isHidden = (element: HTMLElement): boolean => {
-	return element.offsetParent === null;
-};
+export const playlistsDialogSelector = 'ytd-add-to-playlist-renderer';
 
-const isAddToPlaylistRendererVisible = (): boolean => {
-	const addToPlaylistRenderer: HTMLElement | null = document.querySelector('ytd-add-to-playlist-renderer');
+export const getMyPlaylists = (playlistsContainerSelector: string): Array<string> => {
+	const addToPlaylistRenderer: HTMLElement | null = document.querySelector(playlistsContainerSelector);
 	if (addToPlaylistRenderer === null) {
-		return false;
+		return [];
 	}
-	if (isHidden(addToPlaylistRenderer)) {
-		return false;
-	}
-	return true;
-};
-
-export const getMyPlaylists = (): Array<string> => {
-	if (!isAddToPlaylistRendererVisible()) {
+	const isAddToPlaylistRendererHidden = addToPlaylistRenderer.offsetParent === null;
+	if (isAddToPlaylistRendererHidden) {
 		return [];
 	}
 
@@ -131,10 +131,6 @@ export const getMyPlaylists = (): Array<string> => {
 };
 
 export const isPlaylistAlreadyCheckedAtIndex = (index?: number): boolean => {
-	if (!isAddToPlaylistRendererVisible()) {
-		return false;
-	}
-
 	const playlistIndex: number = index ?? 0;
 	const addToPlaylistCheckboxes: NodeListOf<HTMLDivElement> = document.querySelectorAll<HTMLDivElement>('ytd-playlist-add-to-option-renderer div#checkbox');
 	if (playlistIndex >= addToPlaylistCheckboxes.length) {
@@ -146,10 +142,6 @@ export const isPlaylistAlreadyCheckedAtIndex = (index?: number): boolean => {
 };
 
 export const checkPlaylistCheckboxAtIndex = (index?: number): boolean => {
-	if (!isAddToPlaylistRendererVisible()) {
-		return false;
-	}
-
 	const playlistIndex: number = index ?? 0;
 	const addToPlaylistPaperCheckboxes: NodeListOf<HTMLElement> = document.querySelectorAll<HTMLElement>('ytd-playlist-add-to-option-renderer tp-yt-paper-checkbox#checkbox');
 	if (playlistIndex >= addToPlaylistPaperCheckboxes.length) {
@@ -166,10 +158,6 @@ export const getEditPlaylistResponse = (response: HTTPResponse): boolean => {
 };
 
 export const closeAddToPlaylistDialog = (): boolean => {
-	if (!isAddToPlaylistRendererVisible()) {
-		return false;
-	}
-
 	const closeButton: HTMLButtonElement | null = document.querySelector('ytd-add-to-playlist-renderer yt-icon-button#close-button button#button');
 	if (closeButton === null) {
 		return false;
@@ -180,10 +168,6 @@ export const closeAddToPlaylistDialog = (): boolean => {
 };
 
 export const clickCreateNewPlaylistLink = (): boolean => {
-	if (!isAddToPlaylistRendererVisible()) {
-		return false;
-	}
-
 	const createNewPlaylistLink: HTMLAnchorElement | null = document.querySelector('ytd-add-to-playlist-create-renderer ytd-compact-link-renderer a#endpoint');
 	if (createNewPlaylistLink === null) {
 		return false;
@@ -193,27 +177,20 @@ export const clickCreateNewPlaylistLink = (): boolean => {
 	return true;
 };
 
-export const enterPlaylistNameAndClickCreateLink = (playlistName: string): boolean => {
-	if (!isAddToPlaylistRendererVisible()) {
+export const enterPlaylistNameSelector = 'div#create-playlist-form tp-yt-paper-input#input iron-input input';
+
+export const clickCreatePlaylistLink = (): boolean => {
+	const createPlaylistLink: HTMLAnchorElement | null = document.querySelector('div#create-playlist-form div#actions ytd-button-renderer a');
+	if (createPlaylistLink === null) {
 		return false;
 	}
 
-	const playlistNameInput: HTMLInputElement | null = document.querySelector('div#create-playlist-form tp-yt-paper-input#input iron-input input');
-	if (playlistNameInput === null) {
+	const isCreatePlaylistLinkHidden = createPlaylistLink.offsetParent === null;
+	if (isCreatePlaylistLinkHidden) {
 		return false;
 	}
 
-	const createlink: HTMLAnchorElement | null = document.querySelector('div#create-playlist-form div#actions ytd-button-renderer a');
-	if (createlink === null) {
-		return false;
-	}
-
-	if (isHidden(playlistNameInput) || isHidden(createlink)) {
-		return false;
-	}
-
-	playlistNameInput.setAttribute('value', playlistName);
-	createlink.click();
+	createPlaylistLink.click();
 	return true;
 };
 

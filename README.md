@@ -6,8 +6,8 @@ As a visual person I find watching video on Youtube more enjoyable than just lis
 
 ### Built With
 * [TypeScript](https://www.typescriptlang.org/)
-* [Puppeteer](https://pptr.dev/)
 * [Inquirer.js](https://github.com/SBoudrias/Inquirer.js)
+* [Puppeteer](https://pptr.dev/)
 
 ## Getting Started
 ### Prerequisites
@@ -24,6 +24,7 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information
 
 ## Acknowledgements
 * [Jest](https://jestjs.io/)
+* [Terminal-image](https://github.com/sindresorhus/terminal-image)
 * [Chalk](https://github.com/chalk/chalk)
 * [Ora](https://github.com/sindresorhus/ora)
 * [Webpack](https://webpack.js.org/)

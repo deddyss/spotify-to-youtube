@@ -4,45 +4,45 @@ import spinner from '@/cli/spinner';
 import showVideoTable from '@/cli/video/table';
 import { Video } from '@/types';
 import { printNewLine, random, sleep } from '@/util';
-import selectVideosQuestion from './cli/question/selectVideos';
+import youtubeSelectVideoQuestion from './cli/question/youtubeSelectVideos';
 
 class YoutubeProcessor {
 	private api: Youtube;
 	private songs: string[];
+	private playlistTitle: string;
 	private counter: number;
 	private total: number;
 	private padLength: number;
 
-	constructor (api: Youtube, songs: string[]) {
+	constructor (api: Youtube, songs: string[], playlistTitle: string) {
 		this.api = api;
 		this.songs = songs;
+		this.playlistTitle = playlistTitle;
 		this.counter = 0;
 		this.total = songs.length;
 		this.padLength = songs.length.toString().length;
 	}
 
-	public async process(): Promise<void> {
+	public async run(): Promise<void> {
 		printNewLine();
 		for (let index = 0; index < this.songs.length; index += 1) {
 			const song = this.songs[index];
-			await this.search(song);
-		}
-	}
 
-	private async search(song: string) {
-		const video = await this.api.search(song);
-		if (Array.isArray(video)) {
-			await this.askUserToSelectVideos(video, song);
+			const video = await this.api.search(song);
+			if (Array.isArray(video)) {
+				await this.askUserToSelectVideos(video, song);
+			}
+			else {
+				await this.addVideoToPlaylist(video);
+			}
+			await sleep(random(150, 450));
 		}
-		else {
-			await this.addVideoToPlaylist(video);
-		}	
 	}
 
 	private async askUserToSelectVideos(videos: Array<Video>, song: string) {
 		await showVideoTable(videos);
 
-		const answer = await prompt([selectVideosQuestion(song)]);
+		const answer = await prompt([youtubeSelectVideoQuestion(song)]);
 		const videoIndex = answer.index ?? -1;
 		// check answer
 		if (videoIndex >= 0) {
@@ -57,8 +57,14 @@ class YoutubeProcessor {
 	private async addVideoToPlaylist(video: Video) {
 		const index = this.incrementAndGetCounterIndex();
 		spinner.start(`(${index}/${this.total}) ${video.title}`);
-		await sleep(random(1_000, 3_000));
-		spinner.succeed();
+
+		const added = await this.api.addToPlaylist(video.index, this.playlistTitle);
+		if (added) {
+			spinner.succeed();
+		}
+		else {
+			spinner.fail();
+		}
 	}
 
 	private incrementAndGetCounterIndex() {

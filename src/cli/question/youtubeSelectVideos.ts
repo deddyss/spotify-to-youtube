@@ -1,5 +1,5 @@
 import { ChoiceOptions, ListQuestionOptions } from 'inquirer';
-import { Answer, YoutubeVideoAnswer } from '@/types';
+import { YoutubeVideoAnswer } from '@/types';
 import { prefix, suffix } from './options';
 
 const choices = (): ChoiceOptions[] => {
@@ -10,7 +10,7 @@ const choices = (): ChoiceOptions[] => {
 	];
 };
 
-const selectVideosQuestion = (song: string): ListQuestionOptions<YoutubeVideoAnswer> => ({
+const youtubeSelectVideoQuestion = (song: string): ListQuestionOptions<YoutubeVideoAnswer> => ({
 	type: 'list',
 	name: 'index',
 	message: `Which video do you choose for song "${song}"`,
@@ -19,4 +19,4 @@ const selectVideosQuestion = (song: string): ListQuestionOptions<YoutubeVideoAns
 	suffix
 });
 
-export default selectVideosQuestion;
+export default youtubeSelectVideoQuestion;

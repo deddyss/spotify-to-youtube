@@ -1,15 +1,18 @@
 import { prompt, QuestionCollection } from 'inquirer';
 import { Browser, Page } from 'puppeteer-core';
-import { close, launchBrowser } from '@/api/browser';
+import { close, connectBrowser, getBrowserWebSocketEndpoint, launchBrowser } from '@/api/browser';
 import Spotify from '@/api/spotify';
 import Youtube from '@/api/youtube';
 import greeting from '@/cli/greeting';
-import selectSongsQuestion from '@/cli/question/selectSongs';
 import spotifyPlaylistUrlQuestion from '@/cli/question/spotifyPlaylistUrl';
+import spotifySelectSongsQuestion from './cli/question/spotifySelectSongs';
 import { Answer } from '@/types';
 import { sleep } from '@/util';
 import retrieveSpotifyPlaylistSongs from '@/spotify';
 import YoutubeProcessor from '@/youtube';
+import youtubePlaylistTitleQuestion from './cli/question/youtubePlaylistTitle';
+import spinner from './cli/spinner';
+import chromeRemoteDebuggingPortQuestion from './cli/question/chromeRemoteDebuggingPort';
 
 const showGreeting = async () => {
 	console.clear();
@@ -21,19 +24,10 @@ const ask = (questions: QuestionCollection, initialAnswer?: Answer): Promise<Ans
 	return prompt<Answer>(questions, initialAnswer);
 };
 
-// TODO:
-// const userHasLoggedInToYoutube = async(youtube: Youtube, answer: Answer): Promise<boolean> => {
-// 	spinner.start('Checking Youtube feed library');
-
-// 	const loggedIn = await youtube.loggedIn();
-
-// 	spinner.stop();
-// 	return loggedIn;
-// };
-
 const main = async () => {
 	let answer = {} as Answer;
-	let browser!: Browser, page!: Page;
+	// let browser!: Browser;
+	let page!: Page;
 	let spotify: Spotify;
 	let youtube: Youtube;
 	let youtubeProcessor: YoutubeProcessor;
@@ -41,8 +35,17 @@ const main = async () => {
 	try {
 		await showGreeting();
 
-		// launch browser and get page
-		({ browser, page } = await launchBrowser());
+		// ask chrome remote debugging port
+		answer = await ask([ chromeRemoteDebuggingPortQuestion ], answer);
+		// get browser websocket endpoint
+		const websocketEndpoint = await getBrowserWebSocketEndpoint(answer.chromeRemoteDebuggingPort);
+		if (websocketEndpoint === undefined) {
+			spinner.fail('Cannot access Chrome via the provided remote debugging port');
+			return;
+		}
+
+		// connect browser
+		page = await connectBrowser(websocketEndpoint);
 
 		// ask spotify playlist URL
 		answer = await ask([ spotifyPlaylistUrlQuestion ], answer);
@@ -52,27 +55,29 @@ const main = async () => {
 
 		const songs = await retrieveSpotifyPlaylistSongs(spotify, answer);
 
-		// ask user to select some songs
-		answer = await ask([selectSongsQuestion(songs, answer)], answer);
+		// ask user to select some songs and type playlist title
+		answer = await ask(
+			[
+				spotifySelectSongsQuestion(songs, answer.spotifyPlaylistTitle),
+				youtubePlaylistTitleQuestion(answer.spotifyPlaylistTitle)
+			],
+			answer
+		);
 
 		// init youtube API and its processor
 		youtube = new Youtube(page);
-		youtubeProcessor = new YoutubeProcessor(youtube, answer.selectedSongs);
 
-		await youtubeProcessor.process();
+		const loggedInToYoutube = await youtube.loggedIn();
+		if (!loggedInToYoutube) {
+			spinner.fail('Cannot proceed because you are not logged into Youtube');
+			return;
+		}
 
-		// // TODO: test only
-		// const toBeWritten: Record<string, Video | Array<Video>> = {};
-		// for (let index = 0; index < answer.selectedSongs.length; index += 1) {
-		// 	const song = answer.selectedSongs[index];
-		// 	const videos = await youtube.search(song);
-		// 	toBeWritten[song] = videos;
-		// 	console.log(videos);
-		// 	await sleep(random(1000, 3000));
-		// }
-		// const filepath = path.join(__dirname, 'youtube_search_result.json');
-		// fs.writeFileSync(filepath, JSON.stringify(toBeWritten), { encoding: 'utf-8' });
-		// console.log('DONE');
+		youtubeProcessor = new YoutubeProcessor(
+			youtube, answer.spotifySelectedSongs, answer.youtubePlaylistTitle
+		);
+
+		await youtubeProcessor.run();
 	}
 	catch (error) {
 		if (error) {
@@ -80,8 +85,10 @@ const main = async () => {
 		}
 	}
 	finally {
-		close({ page, browser });
+		close({ page });
 	}
+	
+	process.exit();
 };
 
 main();

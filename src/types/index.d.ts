@@ -3,9 +3,11 @@ import { Browser, Page } from 'puppeteer-core';
 export * from './spotify';
 
 export interface Answer {
+	chromeRemoteDebuggingPort: number;
 	spotifyPlaylistUrl: string;
 	spotifyPlaylistTitle: string;
-	selectedSongs: string[];
+	spotifySelectedSongs: string[];
+	youtubePlaylistTitle: string;
 }
 
 export interface YoutubeVideoAnswer {
@@ -23,6 +25,7 @@ export interface Song {
 }
 
 export interface Video {
+	id: string;
 	title: string;
 	channel: string;
 	views: number;
@@ -31,4 +34,8 @@ export interface Video {
 	url: string;
 	img: string;
 	index: number;
+}
+
+export interface Chrome {
+	webSocketDebuggerUrl?: string;
 }

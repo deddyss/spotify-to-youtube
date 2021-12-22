@@ -30,10 +30,10 @@ const message = (songs: Song[], playlistTitle: string): string => {
 		+ `Please ${chalk.bold.yellow('select')} the ${chalk.bold.yellow('song')} you want to export to Youtube`;
 };
 
-const selectSongsQuestion = (songs: Song[], answer: Answer): CheckboxQuestionOptions<Answer> => ({
+const spotifySelectSongsQuestion = (songs: Song[], playlistTitle: string): CheckboxQuestionOptions<Answer> => ({
 	type: 'checkbox',
-	name: 'selectedSongs',
-	message: message(songs, answer.spotifyPlaylistTitle),
+	name: 'spotifySelectedSongs',
+	message: message(songs, playlistTitle),
 	choices: songsToChoiceOptions(songs),
 	suffix: chalk.bold.cyan('!'),
 	validate: (input?: string[]) => {
@@ -42,4 +42,4 @@ const selectSongsQuestion = (songs: Song[], answer: Answer): CheckboxQuestionOpt
 	prefix
 });
 
-export default selectSongsQuestion;
+export default spotifySelectSongsQuestion;
