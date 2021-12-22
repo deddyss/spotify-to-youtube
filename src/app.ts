@@ -1,18 +1,18 @@
 import { prompt, QuestionCollection } from 'inquirer';
-import { Browser, Page } from 'puppeteer-core';
-import { close, connectBrowser, getBrowserWebSocketEndpoint, launchBrowser } from '@/api/browser';
+import { Page } from 'puppeteer-core';
+import { close, connectBrowser, getBrowserWebSocketEndpoint } from '@/api/browser';
 import Spotify from '@/api/spotify';
 import Youtube from '@/api/youtube';
 import greeting from '@/cli/greeting';
 import spotifyPlaylistUrlQuestion from '@/cli/question/spotifyPlaylistUrl';
-import spotifySelectSongsQuestion from './cli/question/spotifySelectSongs';
-import { Answer } from '@/types';
-import { sleep } from '@/util';
+import spotifySelectSongsQuestion from '@/cli/question/spotifySelectSongs';
+import youtubePlaylistTitleQuestion from '@/cli/question/youtubePlaylistTitle';
+import chromeRemoteDebuggingPortQuestion from '@/cli/question/chromeRemoteDebuggingPort';
+import spinner from '@/cli/spinner';
 import retrieveSpotifyPlaylistSongs from '@/spotify';
 import YoutubeProcessor from '@/youtube';
-import youtubePlaylistTitleQuestion from './cli/question/youtubePlaylistTitle';
-import spinner from './cli/spinner';
-import chromeRemoteDebuggingPortQuestion from './cli/question/chromeRemoteDebuggingPort';
+import { Answer } from '@/types';
+import { sleep } from '@/util';
 
 const showGreeting = async () => {
 	console.clear();
@@ -26,7 +26,6 @@ const ask = (questions: QuestionCollection, initialAnswer?: Answer): Promise<Ans
 
 const main = async () => {
 	let answer = {} as Answer;
-	// let browser!: Browser;
 	let page!: Page;
 	let spotify: Spotify;
 	let youtube: Youtube;
@@ -64,7 +63,7 @@ const main = async () => {
 			answer
 		);
 
-		// init youtube API and its processor
+		// init youtube API
 		youtube = new Youtube(page);
 
 		const loggedInToYoutube = await youtube.loggedIn();
@@ -76,7 +75,6 @@ const main = async () => {
 		youtubeProcessor = new YoutubeProcessor(
 			youtube, answer.spotifySelectedSongs, answer.youtubePlaylistTitle
 		);
-
 		await youtubeProcessor.run();
 	}
 	catch (error) {
@@ -87,7 +85,6 @@ const main = async () => {
 	finally {
 		close({ page });
 	}
-	
 	process.exit();
 };
 

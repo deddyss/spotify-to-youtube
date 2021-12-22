@@ -19,7 +19,8 @@ const mockPage = {
 			const topVideos = readMockFile('youtubeSearchResult.json.mock');
 			return Promise.resolve(JSON.parse(topVideos) as Array<Video>);
 		}
-	}
+	},
+	bringToFront: () => Promise.resolve()
 } as unknown as Page;
 
 describe('Youtube search result', () => {
